@@ -1,0 +1,8 @@
+[
+{
+  "directory": "C:/Users/rapha/VsCodeProjects/HelloWorld/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe -DPy_NO_LINK_LIB -Dexample_EXPORTS @CMakeFiles/example.dir/includes_CXX.rsp -g -fvisibility=hidden -o CMakeFiles\\example.dir\\module.cpp.obj -c C:\\Users\\rapha\\VsCodeProjects\\HelloWorld\\module.cpp",
+  "file": "C:/Users/rapha/VsCodeProjects/HelloWorld/module.cpp",
+  "output": "CMakeFiles/example.dir/module.cpp.obj"
+}
+]

@@ -1,0 +1,5 @@
+C:/Users/rapha/VsCodeProjects/HelloWorld/build/CMakeFiles/example.dir
+C:/Users/rapha/VsCodeProjects/HelloWorld/build/CMakeFiles/edit_cache.dir
+C:/Users/rapha/VsCodeProjects/HelloWorld/build/CMakeFiles/rebuild_cache.dir
+C:/Users/rapha/VsCodeProjects/HelloWorld/build/pybind11/CMakeFiles/edit_cache.dir
+C:/Users/rapha/VsCodeProjects/HelloWorld/build/pybind11/CMakeFiles/rebuild_cache.dir

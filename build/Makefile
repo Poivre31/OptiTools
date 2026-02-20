@@ -56,10 +56,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\rapha\VsCodeProjects\HelloWorld
+CMAKE_SOURCE_DIR = C:\Users\rapha\VsCodeProjects\OptiTools
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\rapha\VsCodeProjects\HelloWorld\build
+CMAKE_BINARY_DIR = C:\Users\rapha\VsCodeProjects\OptiTools\build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -84,12 +84,64 @@ rebuild_cache:
 rebuild_cache/fast: rebuild_cache
 .PHONY : rebuild_cache/fast
 
+# Special rule for the target list_install_components
+list_install_components:
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Available install components are: \"Unspecified\""
+.PHONY : list_install_components
+
+# Special rule for the target list_install_components
+list_install_components/fast: list_install_components
+.PHONY : list_install_components/fast
+
+# Special rule for the target install
+install: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Install the project..."
+	"C:\Program Files\CMake\bin\cmake.exe" -P cmake_install.cmake
+.PHONY : install
+
+# Special rule for the target install
+install/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Install the project..."
+	"C:\Program Files\CMake\bin\cmake.exe" -P cmake_install.cmake
+.PHONY : install/fast
+
+# Special rule for the target install/local
+install/local: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Installing only the local directory..."
+	"C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local
+
+# Special rule for the target install/local
+install/local/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Installing only the local directory..."
+	"C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local/fast
+
+# Special rule for the target install/strip
+install/strip: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Installing the project stripped..."
+	"C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+.PHONY : install/strip
+
+# Special rule for the target install/strip
+install/strip/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --cyan "Installing the project stripped..."
+	"C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+.PHONY : install/strip/fast
+
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\rapha\VsCodeProjects\HelloWorld\build\CMakeFiles C:\Users\rapha\VsCodeProjects\HelloWorld\build\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\rapha\VsCodeProjects\OptiTools\build\CMakeFiles C:\Users\rapha\VsCodeProjects\OptiTools\build\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\rapha\VsCodeProjects\HelloWorld\build\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\rapha\VsCodeProjects\OptiTools\build\CMakeFiles 0
 .PHONY : all
+
+# The main codegen target
+codegen: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\rapha\VsCodeProjects\OptiTools\build\CMakeFiles C:\Users\rapha\VsCodeProjects\OptiTools\build\\CMakeFiles\progress.marks
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 codegen
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\rapha\VsCodeProjects\OptiTools\build\CMakeFiles 0
+.PHONY : codegen
 
 # The main clean target
 clean:
@@ -116,41 +168,91 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named example
+# Target rules for targets named optiToolsLib
 
 # Build rule for target.
-example: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 example
-.PHONY : example
+optiToolsLib: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 optiToolsLib
+.PHONY : optiToolsLib
 
 # fast build rule for target.
-example/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\example.dir\build.make CMakeFiles/example.dir/build
-.PHONY : example/fast
+optiToolsLib/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\optiToolsLib.dir\build.make CMakeFiles/optiToolsLib.dir/build
+.PHONY : optiToolsLib/fast
 
-module.obj: module.cpp.obj
-.PHONY : module.obj
+#=============================================================================
+# Target rules for targets named cpp_tests
+
+# Build rule for target.
+cpp_tests: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 cpp_tests
+.PHONY : cpp_tests
+
+# fast build rule for target.
+cpp_tests/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cpp_tests.dir\build.make CMakeFiles/cpp_tests.dir/build
+.PHONY : cpp_tests/fast
+
+#=============================================================================
+# Target rules for targets named fmt
+
+# Build rule for target.
+fmt: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 fmt
+.PHONY : fmt
+
+# fast build rule for target.
+fmt/fast:
+	$(MAKE) $(MAKESILENT) -f _deps\fmt-build\CMakeFiles\fmt.dir\build.make _deps/fmt-build/CMakeFiles/fmt.dir/build
+.PHONY : fmt/fast
+
+src/solver/euler.obj: src/solver/euler.cpp.obj
+.PHONY : src/solver/euler.obj
 
 # target to build an object file
-module.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\example.dir\build.make CMakeFiles/example.dir/module.cpp.obj
-.PHONY : module.cpp.obj
+src/solver/euler.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\optiToolsLib.dir\build.make CMakeFiles/optiToolsLib.dir/src/solver/euler.cpp.obj
+.PHONY : src/solver/euler.cpp.obj
 
-module.i: module.cpp.i
-.PHONY : module.i
+src/solver/euler.i: src/solver/euler.cpp.i
+.PHONY : src/solver/euler.i
 
 # target to preprocess a source file
-module.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\example.dir\build.make CMakeFiles/example.dir/module.cpp.i
-.PHONY : module.cpp.i
+src/solver/euler.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\optiToolsLib.dir\build.make CMakeFiles/optiToolsLib.dir/src/solver/euler.cpp.i
+.PHONY : src/solver/euler.cpp.i
 
-module.s: module.cpp.s
-.PHONY : module.s
+src/solver/euler.s: src/solver/euler.cpp.s
+.PHONY : src/solver/euler.s
 
 # target to generate assembly for a file
-module.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\example.dir\build.make CMakeFiles/example.dir/module.cpp.s
-.PHONY : module.cpp.s
+src/solver/euler.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\optiToolsLib.dir\build.make CMakeFiles/optiToolsLib.dir/src/solver/euler.cpp.s
+.PHONY : src/solver/euler.cpp.s
+
+src/test.obj: src/test.cpp.obj
+.PHONY : src/test.obj
+
+# target to build an object file
+src/test.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cpp_tests.dir\build.make CMakeFiles/cpp_tests.dir/src/test.cpp.obj
+.PHONY : src/test.cpp.obj
+
+src/test.i: src/test.cpp.i
+.PHONY : src/test.i
+
+# target to preprocess a source file
+src/test.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cpp_tests.dir\build.make CMakeFiles/cpp_tests.dir/src/test.cpp.i
+.PHONY : src/test.cpp.i
+
+src/test.s: src/test.cpp.s
+.PHONY : src/test.s
+
+# target to generate assembly for a file
+src/test.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\cpp_tests.dir\build.make CMakeFiles/cpp_tests.dir/src/test.cpp.s
+.PHONY : src/test.cpp.s
 
 # Help Target
 help:
@@ -158,12 +260,22 @@ help:
 	@echo ... all (the default if no target is provided)
 	@echo ... clean
 	@echo ... depend
+	@echo ... codegen
 	@echo ... edit_cache
+	@echo ... install
+	@echo ... install/local
+	@echo ... install/strip
+	@echo ... list_install_components
 	@echo ... rebuild_cache
-	@echo ... example
-	@echo ... module.obj
-	@echo ... module.i
-	@echo ... module.s
+	@echo ... cpp_tests
+	@echo ... fmt
+	@echo ... optiToolsLib
+	@echo ... src/solver/euler.obj
+	@echo ... src/solver/euler.i
+	@echo ... src/solver/euler.s
+	@echo ... src/test.obj
+	@echo ... src/test.i
+	@echo ... src/test.s
 .PHONY : help
 
 

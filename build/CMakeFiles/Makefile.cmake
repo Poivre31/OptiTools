@@ -7,14 +7,15 @@ set(CMAKE_DEPENDS_GENERATOR "MinGW Makefiles")
 # The top level Makefile was generated from the following files:
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
+  "C:/Program Files/CMake/share/cmake-4.2/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in"
   "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeCXXInformation.cmake"
   "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake"
   "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeCommonLanguageInclude.cmake"
-  "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDependentOption.cmake"
   "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeGenericSystem.cmake"
   "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeInitializeConfigs.cmake"
   "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeLanguageInformation.cmake"
   "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakePackageConfigHelpers.cmake"
+  "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeParseArguments.cmake"
   "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeRCInformation.cmake"
   "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeSystemSpecificInformation.cmake"
   "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeSystemSpecificInitialize.cmake"
@@ -23,10 +24,17 @@ set(CMAKE_MAKEFILE_DEPENDS
   "C:/Program Files/CMake/share/cmake-4.2/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
   "C:/Program Files/CMake/share/cmake-4.2/Modules/Compiler/GNU-CXX.cmake"
   "C:/Program Files/CMake/share/cmake-4.2/Modules/Compiler/GNU.cmake"
+  "C:/Program Files/CMake/share/cmake-4.2/Modules/ExternalProject/PatchInfo.txt.in"
+  "C:/Program Files/CMake/share/cmake-4.2/Modules/ExternalProject/RepositoryInfo.txt.in"
+  "C:/Program Files/CMake/share/cmake-4.2/Modules/ExternalProject/UpdateInfo.txt.in"
+  "C:/Program Files/CMake/share/cmake-4.2/Modules/ExternalProject/gitclone.cmake.in"
+  "C:/Program Files/CMake/share/cmake-4.2/Modules/ExternalProject/gitupdate.cmake.in"
+  "C:/Program Files/CMake/share/cmake-4.2/Modules/ExternalProject/shared_internal_commands.cmake"
+  "C:/Program Files/CMake/share/cmake-4.2/Modules/ExternalProject/stepscript.cmake.in"
+  "C:/Program Files/CMake/share/cmake-4.2/Modules/FetchContent.cmake"
+  "C:/Program Files/CMake/share/cmake-4.2/Modules/FindGit.cmake"
   "C:/Program Files/CMake/share/cmake-4.2/Modules/FindPackageHandleStandardArgs.cmake"
   "C:/Program Files/CMake/share/cmake-4.2/Modules/FindPackageMessage.cmake"
-  "C:/Program Files/CMake/share/cmake-4.2/Modules/FindPython.cmake"
-  "C:/Program Files/CMake/share/cmake-4.2/Modules/FindPython/Support.cmake"
   "C:/Program Files/CMake/share/cmake-4.2/Modules/GNUInstallDirs.cmake"
   "C:/Program Files/CMake/share/cmake-4.2/Modules/Internal/CMakeCXXLinkerInformation.cmake"
   "C:/Program Files/CMake/share/cmake-4.2/Modules/Internal/CMakeCommonLinkerInformation.cmake"
@@ -46,14 +54,14 @@ set(CMAKE_MAKEFILE_DEPENDS
   "C:/Program Files/CMake/share/cmake-4.2/Modules/Platform/Windows.cmake"
   "C:/Program Files/CMake/share/cmake-4.2/Modules/Platform/WindowsPaths.cmake"
   "C:/Program Files/CMake/share/cmake-4.2/Modules/WriteBasicConfigVersionFile.cmake"
-  "C:/Users/rapha/VsCodeProjects/HelloWorld/CMakeLists.txt"
+  "C:/Users/rapha/VsCodeProjects/OptiTools/CMakeLists.txt"
   "CMakeFiles/4.2.3/CMakeCXXCompiler.cmake"
   "CMakeFiles/4.2.3/CMakeRCCompiler.cmake"
   "CMakeFiles/4.2.3/CMakeSystem.cmake"
-  "C:/Users/rapha/VsCodeProjects/HelloWorld/pybind11/CMakeLists.txt"
-  "C:/Users/rapha/VsCodeProjects/HelloWorld/pybind11/tools/JoinPaths.cmake"
-  "C:/Users/rapha/VsCodeProjects/HelloWorld/pybind11/tools/pybind11Common.cmake"
-  "C:/Users/rapha/VsCodeProjects/HelloWorld/pybind11/tools/pybind11NewTools.cmake"
+  "_deps/fmt-src/CMakeLists.txt"
+  "_deps/fmt-src/support/cmake/JoinPaths.cmake"
+  "_deps/fmt-src/support/cmake/fmt-config.cmake.in"
+  "_deps/fmt-src/support/cmake/fmt.pc.in"
   )
 
 # The corresponding makefile is:
@@ -64,11 +72,24 @@ set(CMAKE_MAKEFILE_OUTPUTS
 
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
+  "CMakeFiles/fc-tmp/fmt/fmt-gitclone.cmake"
+  "CMakeFiles/fc-stamp/fmt/fmt-gitinfo.txt"
+  "CMakeFiles/fc-tmp/fmt/download.cmake"
+  "CMakeFiles/fc-tmp/fmt/fmt-gitupdate.cmake"
+  "CMakeFiles/fc-stamp/fmt/fmt-update-info.txt"
+  "CMakeFiles/fc-tmp/fmt/update.cmake"
+  "CMakeFiles/fc-stamp/fmt/fmt-patch-info.txt"
+  "CMakeFiles/fc-tmp/fmt/patch.cmake"
   "CMakeFiles/CMakeDirectoryInformation.cmake"
-  "pybind11/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "_deps/fmt-build/fmt-config-version.cmake"
+  "_deps/fmt-build/fmt.pc"
+  "_deps/fmt-build/fmt-config.cmake"
+  "_deps/fmt-build/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/example.dir/DependInfo.cmake"
+  "CMakeFiles/optiToolsLib.dir/DependInfo.cmake"
+  "CMakeFiles/cpp_tests.dir/DependInfo.cmake"
+  "_deps/fmt-build/CMakeFiles/fmt.dir/DependInfo.cmake"
   )

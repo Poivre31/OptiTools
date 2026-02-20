@@ -5,14 +5,14 @@ events:
     kind: "message-v1"
     backtrace:
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineSystem.cmake:212 (message)"
-      - "CMakeLists.txt:2 (project)"
+      - "CMakeLists.txt:5 (project)"
     message: |
       The system is: Windows - 10.0.26200 - AMD64
   -
     kind: "find-v1"
     backtrace:
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeMinGWFindMake.cmake:5 (find_program)"
-      - "CMakeLists.txt:2 (project)"
+      - "CMakeLists.txt:5 (project)"
     mode: "program"
     variable: "CMAKE_MAKE_PROGRAM"
     description: "Path to a program."
@@ -35,12 +35,13 @@ events:
       - "C:/Windows/System32/WindowsPowerShell/v1.0/"
       - "C:/Windows/System32/OpenSSH/"
       - "C:/Program Files/dotnet/"
-      - "C:/Users/rapha/VsCodeProjects/HelloWorld/build/%HIP_PATH%bin/"
+      - "C:/Users/rapha/VsCodeProjects/OptiTools/build/%HIP_PATH%bin/"
       - "C:/Users/rapha/Documents/Apps/ZLUDA/"
       - "C:/Program Files/Git LFS/"
       - "C:/Program Files/Git/cmd/"
       - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
       - "C:/Users/rapha/AppData/Local/Muse Hub/lib/"
+      - "C:/Windows/System32/config/systemprofile/AppData/Local/Muse Hub/lib/"
       - "C:/Program Files/CMake/bin/"
       - "C:/Users/rapha/AppData/Roaming/.dotnet/"
       - "C:/Users/rapha/AppData/Local/Microsoft/WindowsApps/"
@@ -79,7 +80,7 @@ events:
         - "C:/Program Files/Git/cmd"
         - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
         - "C:/Users/rapha/AppData/Local/Muse Hub/lib"
-        - "C:\\Users\\rapha\\AppData\\Local\\Muse Hub\\lib"
+        - "C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Muse Hub\\lib"
         - "C:/WINDOWS/system32"
         - "C:\\WINDOWS"
         - "C:/WINDOWS/System32/Wbem"
@@ -100,6 +101,7 @@ events:
         - "C:\\Users\\rapha\\AppData\\Local\\Python\\pythoncore-3.14-64\\include"
         - "C:/Program Files/JetBrains/CLion 2025.3.2/bin"
         - "C:\\msys64\\ucrt64\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Users/rapha/VsCodeProjects/OptiTools/install"
   -
     kind: "find-v1"
     backtrace:
@@ -108,7 +110,7 @@ events:
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "CMakeLists.txt:2 (project)"
+      - "CMakeLists.txt:5 (project)"
     mode: "file"
     variable: "src_in"
     description: "Path to a file."
@@ -143,7 +145,7 @@ events:
         - "C:/Program Files/Git/cmd"
         - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
         - "C:/Users/rapha/AppData/Local/Muse Hub/lib"
-        - "C:\\Users\\rapha\\AppData\\Local\\Muse Hub\\lib"
+        - "C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Muse Hub\\lib"
         - "C:/WINDOWS/system32"
         - "C:\\WINDOWS"
         - "C:/WINDOWS/System32/Wbem"
@@ -164,13 +166,14 @@ events:
         - "C:\\Users\\rapha\\AppData\\Local\\Python\\pythoncore-3.14-64\\include"
         - "C:/Program Files/JetBrains/CLion 2025.3.2/bin"
         - "C:\\msys64\\ucrt64\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Users/rapha/VsCodeProjects/OptiTools/install"
   -
     kind: "message-v1"
     backtrace:
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "CMakeLists.txt:2 (project)"
+      - "CMakeLists.txt:5 (project)"
     message: |
       Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
       Compiler: C:/msys64/ucrt64/bin/g++.exe 
@@ -184,14 +187,14 @@ events:
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
       
       The CXX compiler identification is GNU, found in:
-        C:/Users/rapha/VsCodeProjects/HelloWorld/build/CMakeFiles/4.2.3/CompilerIdCXX/a.exe
+        C:/Users/rapha/VsCodeProjects/OptiTools/build/CMakeFiles/4.2.3/CompilerIdCXX/a.exe
       
   -
     kind: "find-v1"
     backtrace:
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
-      - "CMakeLists.txt:2 (project)"
+      - "CMakeLists.txt:5 (project)"
     mode: "program"
     variable: "CMAKE_AR"
     description: "Path to a program."
@@ -214,12 +217,13 @@ events:
       - "C:/Windows/System32/WindowsPowerShell/v1.0/"
       - "C:/Windows/System32/OpenSSH/"
       - "C:/Program Files/dotnet/"
-      - "C:/Users/rapha/VsCodeProjects/HelloWorld/build/%HIP_PATH%bin/"
+      - "C:/Users/rapha/VsCodeProjects/OptiTools/build/%HIP_PATH%bin/"
       - "C:/Users/rapha/Documents/Apps/ZLUDA/"
       - "C:/Program Files/Git LFS/"
       - "C:/Program Files/Git/cmd/"
       - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
       - "C:/Users/rapha/AppData/Local/Muse Hub/lib/"
+      - "C:/Windows/System32/config/systemprofile/AppData/Local/Muse Hub/lib/"
       - "C:/Program Files/CMake/bin/"
       - "C:/Users/rapha/AppData/Roaming/.dotnet/"
       - "C:/Users/rapha/AppData/Local/Microsoft/WindowsApps/"
@@ -254,7 +258,7 @@ events:
         - "C:/Program Files/Git/cmd"
         - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
         - "C:/Users/rapha/AppData/Local/Muse Hub/lib"
-        - "C:\\Users\\rapha\\AppData\\Local\\Muse Hub\\lib"
+        - "C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Muse Hub\\lib"
         - "C:/WINDOWS/system32"
         - "C:\\WINDOWS"
         - "C:/WINDOWS/System32/Wbem"
@@ -275,12 +279,13 @@ events:
         - "C:\\Users\\rapha\\AppData\\Local\\Python\\pythoncore-3.14-64\\include"
         - "C:/Program Files/JetBrains/CLion 2025.3.2/bin"
         - "C:\\msys64\\ucrt64\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Users/rapha/VsCodeProjects/OptiTools/install"
   -
     kind: "find-v1"
     backtrace:
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
-      - "CMakeLists.txt:2 (project)"
+      - "CMakeLists.txt:5 (project)"
     mode: "program"
     variable: "CMAKE_RANLIB"
     description: "Path to a program."
@@ -303,12 +308,13 @@ events:
       - "C:/Windows/System32/WindowsPowerShell/v1.0/"
       - "C:/Windows/System32/OpenSSH/"
       - "C:/Program Files/dotnet/"
-      - "C:/Users/rapha/VsCodeProjects/HelloWorld/build/%HIP_PATH%bin/"
+      - "C:/Users/rapha/VsCodeProjects/OptiTools/build/%HIP_PATH%bin/"
       - "C:/Users/rapha/Documents/Apps/ZLUDA/"
       - "C:/Program Files/Git LFS/"
       - "C:/Program Files/Git/cmd/"
       - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
       - "C:/Users/rapha/AppData/Local/Muse Hub/lib/"
+      - "C:/Windows/System32/config/systemprofile/AppData/Local/Muse Hub/lib/"
       - "C:/Program Files/CMake/bin/"
       - "C:/Users/rapha/AppData/Roaming/.dotnet/"
       - "C:/Users/rapha/AppData/Local/Microsoft/WindowsApps/"
@@ -343,7 +349,7 @@ events:
         - "C:/Program Files/Git/cmd"
         - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
         - "C:/Users/rapha/AppData/Local/Muse Hub/lib"
-        - "C:\\Users\\rapha\\AppData\\Local\\Muse Hub\\lib"
+        - "C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Muse Hub\\lib"
         - "C:/WINDOWS/system32"
         - "C:\\WINDOWS"
         - "C:/WINDOWS/System32/Wbem"
@@ -364,12 +370,13 @@ events:
         - "C:\\Users\\rapha\\AppData\\Local\\Python\\pythoncore-3.14-64\\include"
         - "C:/Program Files/JetBrains/CLion 2025.3.2/bin"
         - "C:\\msys64\\ucrt64\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Users/rapha/VsCodeProjects/OptiTools/install"
   -
     kind: "find-v1"
     backtrace:
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
-      - "CMakeLists.txt:2 (project)"
+      - "CMakeLists.txt:5 (project)"
     mode: "program"
     variable: "CMAKE_STRIP"
     description: "Path to a program."
@@ -392,12 +399,13 @@ events:
       - "C:/Windows/System32/WindowsPowerShell/v1.0/"
       - "C:/Windows/System32/OpenSSH/"
       - "C:/Program Files/dotnet/"
-      - "C:/Users/rapha/VsCodeProjects/HelloWorld/build/%HIP_PATH%bin/"
+      - "C:/Users/rapha/VsCodeProjects/OptiTools/build/%HIP_PATH%bin/"
       - "C:/Users/rapha/Documents/Apps/ZLUDA/"
       - "C:/Program Files/Git LFS/"
       - "C:/Program Files/Git/cmd/"
       - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
       - "C:/Users/rapha/AppData/Local/Muse Hub/lib/"
+      - "C:/Windows/System32/config/systemprofile/AppData/Local/Muse Hub/lib/"
       - "C:/Program Files/CMake/bin/"
       - "C:/Users/rapha/AppData/Roaming/.dotnet/"
       - "C:/Users/rapha/AppData/Local/Microsoft/WindowsApps/"
@@ -432,7 +440,7 @@ events:
         - "C:/Program Files/Git/cmd"
         - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
         - "C:/Users/rapha/AppData/Local/Muse Hub/lib"
-        - "C:\\Users\\rapha\\AppData\\Local\\Muse Hub\\lib"
+        - "C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Muse Hub\\lib"
         - "C:/WINDOWS/system32"
         - "C:\\WINDOWS"
         - "C:/WINDOWS/System32/Wbem"
@@ -453,12 +461,13 @@ events:
         - "C:\\Users\\rapha\\AppData\\Local\\Python\\pythoncore-3.14-64\\include"
         - "C:/Program Files/JetBrains/CLion 2025.3.2/bin"
         - "C:\\msys64\\ucrt64\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Users/rapha/VsCodeProjects/OptiTools/install"
   -
     kind: "find-v1"
     backtrace:
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
-      - "CMakeLists.txt:2 (project)"
+      - "CMakeLists.txt:5 (project)"
     mode: "program"
     variable: "CMAKE_LINKER"
     description: "Path to a program."
@@ -481,12 +490,13 @@ events:
       - "C:/Windows/System32/WindowsPowerShell/v1.0/"
       - "C:/Windows/System32/OpenSSH/"
       - "C:/Program Files/dotnet/"
-      - "C:/Users/rapha/VsCodeProjects/HelloWorld/build/%HIP_PATH%bin/"
+      - "C:/Users/rapha/VsCodeProjects/OptiTools/build/%HIP_PATH%bin/"
       - "C:/Users/rapha/Documents/Apps/ZLUDA/"
       - "C:/Program Files/Git LFS/"
       - "C:/Program Files/Git/cmd/"
       - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
       - "C:/Users/rapha/AppData/Local/Muse Hub/lib/"
+      - "C:/Windows/System32/config/systemprofile/AppData/Local/Muse Hub/lib/"
       - "C:/Program Files/CMake/bin/"
       - "C:/Users/rapha/AppData/Roaming/.dotnet/"
       - "C:/Users/rapha/AppData/Local/Microsoft/WindowsApps/"
@@ -521,7 +531,7 @@ events:
         - "C:/Program Files/Git/cmd"
         - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
         - "C:/Users/rapha/AppData/Local/Muse Hub/lib"
-        - "C:\\Users\\rapha\\AppData\\Local\\Muse Hub\\lib"
+        - "C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Muse Hub\\lib"
         - "C:/WINDOWS/system32"
         - "C:\\WINDOWS"
         - "C:/WINDOWS/System32/Wbem"
@@ -542,12 +552,13 @@ events:
         - "C:\\Users\\rapha\\AppData\\Local\\Python\\pythoncore-3.14-64\\include"
         - "C:/Program Files/JetBrains/CLion 2025.3.2/bin"
         - "C:\\msys64\\ucrt64\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Users/rapha/VsCodeProjects/OptiTools/install"
   -
     kind: "find-v1"
     backtrace:
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
-      - "CMakeLists.txt:2 (project)"
+      - "CMakeLists.txt:5 (project)"
     mode: "program"
     variable: "CMAKE_NM"
     description: "Path to a program."
@@ -570,12 +581,13 @@ events:
       - "C:/Windows/System32/WindowsPowerShell/v1.0/"
       - "C:/Windows/System32/OpenSSH/"
       - "C:/Program Files/dotnet/"
-      - "C:/Users/rapha/VsCodeProjects/HelloWorld/build/%HIP_PATH%bin/"
+      - "C:/Users/rapha/VsCodeProjects/OptiTools/build/%HIP_PATH%bin/"
       - "C:/Users/rapha/Documents/Apps/ZLUDA/"
       - "C:/Program Files/Git LFS/"
       - "C:/Program Files/Git/cmd/"
       - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
       - "C:/Users/rapha/AppData/Local/Muse Hub/lib/"
+      - "C:/Windows/System32/config/systemprofile/AppData/Local/Muse Hub/lib/"
       - "C:/Program Files/CMake/bin/"
       - "C:/Users/rapha/AppData/Roaming/.dotnet/"
       - "C:/Users/rapha/AppData/Local/Microsoft/WindowsApps/"
@@ -610,7 +622,7 @@ events:
         - "C:/Program Files/Git/cmd"
         - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
         - "C:/Users/rapha/AppData/Local/Muse Hub/lib"
-        - "C:\\Users\\rapha\\AppData\\Local\\Muse Hub\\lib"
+        - "C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Muse Hub\\lib"
         - "C:/WINDOWS/system32"
         - "C:\\WINDOWS"
         - "C:/WINDOWS/System32/Wbem"
@@ -631,12 +643,13 @@ events:
         - "C:\\Users\\rapha\\AppData\\Local\\Python\\pythoncore-3.14-64\\include"
         - "C:/Program Files/JetBrains/CLion 2025.3.2/bin"
         - "C:\\msys64\\ucrt64\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Users/rapha/VsCodeProjects/OptiTools/install"
   -
     kind: "find-v1"
     backtrace:
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
-      - "CMakeLists.txt:2 (project)"
+      - "CMakeLists.txt:5 (project)"
     mode: "program"
     variable: "CMAKE_OBJDUMP"
     description: "Path to a program."
@@ -659,12 +672,13 @@ events:
       - "C:/Windows/System32/WindowsPowerShell/v1.0/"
       - "C:/Windows/System32/OpenSSH/"
       - "C:/Program Files/dotnet/"
-      - "C:/Users/rapha/VsCodeProjects/HelloWorld/build/%HIP_PATH%bin/"
+      - "C:/Users/rapha/VsCodeProjects/OptiTools/build/%HIP_PATH%bin/"
       - "C:/Users/rapha/Documents/Apps/ZLUDA/"
       - "C:/Program Files/Git LFS/"
       - "C:/Program Files/Git/cmd/"
       - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
       - "C:/Users/rapha/AppData/Local/Muse Hub/lib/"
+      - "C:/Windows/System32/config/systemprofile/AppData/Local/Muse Hub/lib/"
       - "C:/Program Files/CMake/bin/"
       - "C:/Users/rapha/AppData/Roaming/.dotnet/"
       - "C:/Users/rapha/AppData/Local/Microsoft/WindowsApps/"
@@ -699,7 +713,7 @@ events:
         - "C:/Program Files/Git/cmd"
         - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
         - "C:/Users/rapha/AppData/Local/Muse Hub/lib"
-        - "C:\\Users\\rapha\\AppData\\Local\\Muse Hub\\lib"
+        - "C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Muse Hub\\lib"
         - "C:/WINDOWS/system32"
         - "C:\\WINDOWS"
         - "C:/WINDOWS/System32/Wbem"
@@ -720,12 +734,13 @@ events:
         - "C:\\Users\\rapha\\AppData\\Local\\Python\\pythoncore-3.14-64\\include"
         - "C:/Program Files/JetBrains/CLion 2025.3.2/bin"
         - "C:\\msys64\\ucrt64\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Users/rapha/VsCodeProjects/OptiTools/install"
   -
     kind: "find-v1"
     backtrace:
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
-      - "CMakeLists.txt:2 (project)"
+      - "CMakeLists.txt:5 (project)"
     mode: "program"
     variable: "CMAKE_OBJCOPY"
     description: "Path to a program."
@@ -748,12 +763,13 @@ events:
       - "C:/Windows/System32/WindowsPowerShell/v1.0/"
       - "C:/Windows/System32/OpenSSH/"
       - "C:/Program Files/dotnet/"
-      - "C:/Users/rapha/VsCodeProjects/HelloWorld/build/%HIP_PATH%bin/"
+      - "C:/Users/rapha/VsCodeProjects/OptiTools/build/%HIP_PATH%bin/"
       - "C:/Users/rapha/Documents/Apps/ZLUDA/"
       - "C:/Program Files/Git LFS/"
       - "C:/Program Files/Git/cmd/"
       - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
       - "C:/Users/rapha/AppData/Local/Muse Hub/lib/"
+      - "C:/Windows/System32/config/systemprofile/AppData/Local/Muse Hub/lib/"
       - "C:/Program Files/CMake/bin/"
       - "C:/Users/rapha/AppData/Roaming/.dotnet/"
       - "C:/Users/rapha/AppData/Local/Microsoft/WindowsApps/"
@@ -788,7 +804,7 @@ events:
         - "C:/Program Files/Git/cmd"
         - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
         - "C:/Users/rapha/AppData/Local/Muse Hub/lib"
-        - "C:\\Users\\rapha\\AppData\\Local\\Muse Hub\\lib"
+        - "C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Muse Hub\\lib"
         - "C:/WINDOWS/system32"
         - "C:\\WINDOWS"
         - "C:/WINDOWS/System32/Wbem"
@@ -809,12 +825,13 @@ events:
         - "C:\\Users\\rapha\\AppData\\Local\\Python\\pythoncore-3.14-64\\include"
         - "C:/Program Files/JetBrains/CLion 2025.3.2/bin"
         - "C:\\msys64\\ucrt64\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Users/rapha/VsCodeProjects/OptiTools/install"
   -
     kind: "find-v1"
     backtrace:
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
-      - "CMakeLists.txt:2 (project)"
+      - "CMakeLists.txt:5 (project)"
     mode: "program"
     variable: "CMAKE_READELF"
     description: "Path to a program."
@@ -837,12 +854,13 @@ events:
       - "C:/Windows/System32/WindowsPowerShell/v1.0/"
       - "C:/Windows/System32/OpenSSH/"
       - "C:/Program Files/dotnet/"
-      - "C:/Users/rapha/VsCodeProjects/HelloWorld/build/%HIP_PATH%bin/"
+      - "C:/Users/rapha/VsCodeProjects/OptiTools/build/%HIP_PATH%bin/"
       - "C:/Users/rapha/Documents/Apps/ZLUDA/"
       - "C:/Program Files/Git LFS/"
       - "C:/Program Files/Git/cmd/"
       - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
       - "C:/Users/rapha/AppData/Local/Muse Hub/lib/"
+      - "C:/Windows/System32/config/systemprofile/AppData/Local/Muse Hub/lib/"
       - "C:/Program Files/CMake/bin/"
       - "C:/Users/rapha/AppData/Roaming/.dotnet/"
       - "C:/Users/rapha/AppData/Local/Microsoft/WindowsApps/"
@@ -877,7 +895,7 @@ events:
         - "C:/Program Files/Git/cmd"
         - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
         - "C:/Users/rapha/AppData/Local/Muse Hub/lib"
-        - "C:\\Users\\rapha\\AppData\\Local\\Muse Hub\\lib"
+        - "C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Muse Hub\\lib"
         - "C:/WINDOWS/system32"
         - "C:\\WINDOWS"
         - "C:/WINDOWS/System32/Wbem"
@@ -898,12 +916,13 @@ events:
         - "C:\\Users\\rapha\\AppData\\Local\\Python\\pythoncore-3.14-64\\include"
         - "C:/Program Files/JetBrains/CLion 2025.3.2/bin"
         - "C:\\msys64\\ucrt64\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Users/rapha/VsCodeProjects/OptiTools/install"
   -
     kind: "find-v1"
     backtrace:
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
-      - "CMakeLists.txt:2 (project)"
+      - "CMakeLists.txt:5 (project)"
     mode: "program"
     variable: "CMAKE_DLLTOOL"
     description: "Path to a program."
@@ -926,12 +945,13 @@ events:
       - "C:/Windows/System32/WindowsPowerShell/v1.0/"
       - "C:/Windows/System32/OpenSSH/"
       - "C:/Program Files/dotnet/"
-      - "C:/Users/rapha/VsCodeProjects/HelloWorld/build/%HIP_PATH%bin/"
+      - "C:/Users/rapha/VsCodeProjects/OptiTools/build/%HIP_PATH%bin/"
       - "C:/Users/rapha/Documents/Apps/ZLUDA/"
       - "C:/Program Files/Git LFS/"
       - "C:/Program Files/Git/cmd/"
       - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
       - "C:/Users/rapha/AppData/Local/Muse Hub/lib/"
+      - "C:/Windows/System32/config/systemprofile/AppData/Local/Muse Hub/lib/"
       - "C:/Program Files/CMake/bin/"
       - "C:/Users/rapha/AppData/Roaming/.dotnet/"
       - "C:/Users/rapha/AppData/Local/Microsoft/WindowsApps/"
@@ -966,7 +986,7 @@ events:
         - "C:/Program Files/Git/cmd"
         - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
         - "C:/Users/rapha/AppData/Local/Muse Hub/lib"
-        - "C:\\Users\\rapha\\AppData\\Local\\Muse Hub\\lib"
+        - "C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Muse Hub\\lib"
         - "C:/WINDOWS/system32"
         - "C:\\WINDOWS"
         - "C:/WINDOWS/System32/Wbem"
@@ -987,12 +1007,13 @@ events:
         - "C:\\Users\\rapha\\AppData\\Local\\Python\\pythoncore-3.14-64\\include"
         - "C:/Program Files/JetBrains/CLion 2025.3.2/bin"
         - "C:\\msys64\\ucrt64\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Users/rapha/VsCodeProjects/OptiTools/install"
   -
     kind: "find-v1"
     backtrace:
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
-      - "CMakeLists.txt:2 (project)"
+      - "CMakeLists.txt:5 (project)"
     mode: "program"
     variable: "CMAKE_ADDR2LINE"
     description: "Path to a program."
@@ -1015,12 +1036,13 @@ events:
       - "C:/Windows/System32/WindowsPowerShell/v1.0/"
       - "C:/Windows/System32/OpenSSH/"
       - "C:/Program Files/dotnet/"
-      - "C:/Users/rapha/VsCodeProjects/HelloWorld/build/%HIP_PATH%bin/"
+      - "C:/Users/rapha/VsCodeProjects/OptiTools/build/%HIP_PATH%bin/"
       - "C:/Users/rapha/Documents/Apps/ZLUDA/"
       - "C:/Program Files/Git LFS/"
       - "C:/Program Files/Git/cmd/"
       - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
       - "C:/Users/rapha/AppData/Local/Muse Hub/lib/"
+      - "C:/Windows/System32/config/systemprofile/AppData/Local/Muse Hub/lib/"
       - "C:/Program Files/CMake/bin/"
       - "C:/Users/rapha/AppData/Roaming/.dotnet/"
       - "C:/Users/rapha/AppData/Local/Microsoft/WindowsApps/"
@@ -1055,7 +1077,7 @@ events:
         - "C:/Program Files/Git/cmd"
         - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
         - "C:/Users/rapha/AppData/Local/Muse Hub/lib"
-        - "C:\\Users\\rapha\\AppData\\Local\\Muse Hub\\lib"
+        - "C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Muse Hub\\lib"
         - "C:/WINDOWS/system32"
         - "C:\\WINDOWS"
         - "C:/WINDOWS/System32/Wbem"
@@ -1076,12 +1098,13 @@ events:
         - "C:\\Users\\rapha\\AppData\\Local\\Python\\pythoncore-3.14-64\\include"
         - "C:/Program Files/JetBrains/CLion 2025.3.2/bin"
         - "C:\\msys64\\ucrt64\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Users/rapha/VsCodeProjects/OptiTools/install"
   -
     kind: "find-v1"
     backtrace:
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
-      - "CMakeLists.txt:2 (project)"
+      - "CMakeLists.txt:5 (project)"
     mode: "program"
     variable: "CMAKE_TAPI"
     description: "Path to a program."
@@ -1104,12 +1127,13 @@ events:
       - "C:/Windows/System32/WindowsPowerShell/v1.0/"
       - "C:/Windows/System32/OpenSSH/"
       - "C:/Program Files/dotnet/"
-      - "C:/Users/rapha/VsCodeProjects/HelloWorld/build/%HIP_PATH%bin/"
+      - "C:/Users/rapha/VsCodeProjects/OptiTools/build/%HIP_PATH%bin/"
       - "C:/Users/rapha/Documents/Apps/ZLUDA/"
       - "C:/Program Files/Git LFS/"
       - "C:/Program Files/Git/cmd/"
       - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
       - "C:/Users/rapha/AppData/Local/Muse Hub/lib/"
+      - "C:/Windows/System32/config/systemprofile/AppData/Local/Muse Hub/lib/"
       - "C:/Program Files/CMake/bin/"
       - "C:/Users/rapha/AppData/Roaming/.dotnet/"
       - "C:/Users/rapha/AppData/Local/Microsoft/WindowsApps/"
@@ -1148,9 +1172,9 @@ events:
       - "C:/Program Files/dotnet/tapi.com"
       - "C:/Program Files/dotnet/tapi.exe"
       - "C:/Program Files/dotnet/tapi"
-      - "C:/Users/rapha/VsCodeProjects/HelloWorld/build/%HIP_PATH%bin/tapi.com"
-      - "C:/Users/rapha/VsCodeProjects/HelloWorld/build/%HIP_PATH%bin/tapi.exe"
-      - "C:/Users/rapha/VsCodeProjects/HelloWorld/build/%HIP_PATH%bin/tapi"
+      - "C:/Users/rapha/VsCodeProjects/OptiTools/build/%HIP_PATH%bin/tapi.com"
+      - "C:/Users/rapha/VsCodeProjects/OptiTools/build/%HIP_PATH%bin/tapi.exe"
+      - "C:/Users/rapha/VsCodeProjects/OptiTools/build/%HIP_PATH%bin/tapi"
       - "C:/Users/rapha/Documents/Apps/ZLUDA/tapi.com"
       - "C:/Users/rapha/Documents/Apps/ZLUDA/tapi.exe"
       - "C:/Users/rapha/Documents/Apps/ZLUDA/tapi"
@@ -1166,6 +1190,9 @@ events:
       - "C:/Users/rapha/AppData/Local/Muse Hub/lib/tapi.com"
       - "C:/Users/rapha/AppData/Local/Muse Hub/lib/tapi.exe"
       - "C:/Users/rapha/AppData/Local/Muse Hub/lib/tapi"
+      - "C:/Windows/System32/config/systemprofile/AppData/Local/Muse Hub/lib/tapi.com"
+      - "C:/Windows/System32/config/systemprofile/AppData/Local/Muse Hub/lib/tapi.exe"
+      - "C:/Windows/System32/config/systemprofile/AppData/Local/Muse Hub/lib/tapi"
       - "C:/Program Files/CMake/bin/tapi.com"
       - "C:/Program Files/CMake/bin/tapi.exe"
       - "C:/Program Files/CMake/bin/tapi"
@@ -1224,7 +1251,7 @@ events:
         - "C:/Program Files/Git/cmd"
         - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
         - "C:/Users/rapha/AppData/Local/Muse Hub/lib"
-        - "C:\\Users\\rapha\\AppData\\Local\\Muse Hub\\lib"
+        - "C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Muse Hub\\lib"
         - "C:/WINDOWS/system32"
         - "C:\\WINDOWS"
         - "C:/WINDOWS/System32/Wbem"
@@ -1245,12 +1272,13 @@ events:
         - "C:\\Users\\rapha\\AppData\\Local\\Python\\pythoncore-3.14-64\\include"
         - "C:/Program Files/JetBrains/CLion 2025.3.2/bin"
         - "C:\\msys64\\ucrt64\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Users/rapha/VsCodeProjects/OptiTools/install"
   -
     kind: "find-v1"
     backtrace:
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/Compiler/GNU-FindBinUtils.cmake:18 (find_program)"
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
-      - "CMakeLists.txt:2 (project)"
+      - "CMakeLists.txt:5 (project)"
     mode: "program"
     variable: "CMAKE_CXX_COMPILER_AR"
     description: "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
@@ -1276,12 +1304,13 @@ events:
       - "C:/Windows/System32/WindowsPowerShell/v1.0/"
       - "C:/Windows/System32/OpenSSH/"
       - "C:/Program Files/dotnet/"
-      - "C:/Users/rapha/VsCodeProjects/HelloWorld/build/%HIP_PATH%bin/"
+      - "C:/Users/rapha/VsCodeProjects/OptiTools/build/%HIP_PATH%bin/"
       - "C:/Users/rapha/Documents/Apps/ZLUDA/"
       - "C:/Program Files/Git LFS/"
       - "C:/Program Files/Git/cmd/"
       - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
       - "C:/Users/rapha/AppData/Local/Muse Hub/lib/"
+      - "C:/Windows/System32/config/systemprofile/AppData/Local/Muse Hub/lib/"
       - "C:/Program Files/CMake/bin/"
       - "C:/Users/rapha/AppData/Roaming/.dotnet/"
       - "C:/Users/rapha/AppData/Local/Microsoft/WindowsApps/"
@@ -1320,9 +1349,9 @@ events:
       - "C:/Program Files/dotnet/gcc-ar-15.2.com"
       - "C:/Program Files/dotnet/gcc-ar-15.2.exe"
       - "C:/Program Files/dotnet/gcc-ar-15.2"
-      - "C:/Users/rapha/VsCodeProjects/HelloWorld/build/%HIP_PATH%bin/gcc-ar-15.2.com"
-      - "C:/Users/rapha/VsCodeProjects/HelloWorld/build/%HIP_PATH%bin/gcc-ar-15.2.exe"
-      - "C:/Users/rapha/VsCodeProjects/HelloWorld/build/%HIP_PATH%bin/gcc-ar-15.2"
+      - "C:/Users/rapha/VsCodeProjects/OptiTools/build/%HIP_PATH%bin/gcc-ar-15.2.com"
+      - "C:/Users/rapha/VsCodeProjects/OptiTools/build/%HIP_PATH%bin/gcc-ar-15.2.exe"
+      - "C:/Users/rapha/VsCodeProjects/OptiTools/build/%HIP_PATH%bin/gcc-ar-15.2"
       - "C:/Users/rapha/Documents/Apps/ZLUDA/gcc-ar-15.2.com"
       - "C:/Users/rapha/Documents/Apps/ZLUDA/gcc-ar-15.2.exe"
       - "C:/Users/rapha/Documents/Apps/ZLUDA/gcc-ar-15.2"
@@ -1338,6 +1367,9 @@ events:
       - "C:/Users/rapha/AppData/Local/Muse Hub/lib/gcc-ar-15.2.com"
       - "C:/Users/rapha/AppData/Local/Muse Hub/lib/gcc-ar-15.2.exe"
       - "C:/Users/rapha/AppData/Local/Muse Hub/lib/gcc-ar-15.2"
+      - "C:/Windows/System32/config/systemprofile/AppData/Local/Muse Hub/lib/gcc-ar-15.2.com"
+      - "C:/Windows/System32/config/systemprofile/AppData/Local/Muse Hub/lib/gcc-ar-15.2.exe"
+      - "C:/Windows/System32/config/systemprofile/AppData/Local/Muse Hub/lib/gcc-ar-15.2"
       - "C:/Program Files/CMake/bin/gcc-ar-15.2.com"
       - "C:/Program Files/CMake/bin/gcc-ar-15.2.exe"
       - "C:/Program Files/CMake/bin/gcc-ar-15.2"
@@ -1401,9 +1433,9 @@ events:
       - "C:/Program Files/dotnet/gcc-ar-15.com"
       - "C:/Program Files/dotnet/gcc-ar-15.exe"
       - "C:/Program Files/dotnet/gcc-ar-15"
-      - "C:/Users/rapha/VsCodeProjects/HelloWorld/build/%HIP_PATH%bin/gcc-ar-15.com"
-      - "C:/Users/rapha/VsCodeProjects/HelloWorld/build/%HIP_PATH%bin/gcc-ar-15.exe"
-      - "C:/Users/rapha/VsCodeProjects/HelloWorld/build/%HIP_PATH%bin/gcc-ar-15"
+      - "C:/Users/rapha/VsCodeProjects/OptiTools/build/%HIP_PATH%bin/gcc-ar-15.com"
+      - "C:/Users/rapha/VsCodeProjects/OptiTools/build/%HIP_PATH%bin/gcc-ar-15.exe"
+      - "C:/Users/rapha/VsCodeProjects/OptiTools/build/%HIP_PATH%bin/gcc-ar-15"
       - "C:/Users/rapha/Documents/Apps/ZLUDA/gcc-ar-15.com"
       - "C:/Users/rapha/Documents/Apps/ZLUDA/gcc-ar-15.exe"
       - "C:/Users/rapha/Documents/Apps/ZLUDA/gcc-ar-15"
@@ -1419,6 +1451,9 @@ events:
       - "C:/Users/rapha/AppData/Local/Muse Hub/lib/gcc-ar-15.com"
       - "C:/Users/rapha/AppData/Local/Muse Hub/lib/gcc-ar-15.exe"
       - "C:/Users/rapha/AppData/Local/Muse Hub/lib/gcc-ar-15"
+      - "C:/Windows/System32/config/systemprofile/AppData/Local/Muse Hub/lib/gcc-ar-15.com"
+      - "C:/Windows/System32/config/systemprofile/AppData/Local/Muse Hub/lib/gcc-ar-15.exe"
+      - "C:/Windows/System32/config/systemprofile/AppData/Local/Muse Hub/lib/gcc-ar-15"
       - "C:/Program Files/CMake/bin/gcc-ar-15.com"
       - "C:/Program Files/CMake/bin/gcc-ar-15.exe"
       - "C:/Program Files/CMake/bin/gcc-ar-15"
@@ -1482,9 +1517,9 @@ events:
       - "C:/Program Files/dotnet/gcc-ar15.com"
       - "C:/Program Files/dotnet/gcc-ar15.exe"
       - "C:/Program Files/dotnet/gcc-ar15"
-      - "C:/Users/rapha/VsCodeProjects/HelloWorld/build/%HIP_PATH%bin/gcc-ar15.com"
-      - "C:/Users/rapha/VsCodeProjects/HelloWorld/build/%HIP_PATH%bin/gcc-ar15.exe"
-      - "C:/Users/rapha/VsCodeProjects/HelloWorld/build/%HIP_PATH%bin/gcc-ar15"
+      - "C:/Users/rapha/VsCodeProjects/OptiTools/build/%HIP_PATH%bin/gcc-ar15.com"
+      - "C:/Users/rapha/VsCodeProjects/OptiTools/build/%HIP_PATH%bin/gcc-ar15.exe"
+      - "C:/Users/rapha/VsCodeProjects/OptiTools/build/%HIP_PATH%bin/gcc-ar15"
       - "C:/Users/rapha/Documents/Apps/ZLUDA/gcc-ar15.com"
       - "C:/Users/rapha/Documents/Apps/ZLUDA/gcc-ar15.exe"
       - "C:/Users/rapha/Documents/Apps/ZLUDA/gcc-ar15"
@@ -1500,6 +1535,9 @@ events:
       - "C:/Users/rapha/AppData/Local/Muse Hub/lib/gcc-ar15.com"
       - "C:/Users/rapha/AppData/Local/Muse Hub/lib/gcc-ar15.exe"
       - "C:/Users/rapha/AppData/Local/Muse Hub/lib/gcc-ar15"
+      - "C:/Windows/System32/config/systemprofile/AppData/Local/Muse Hub/lib/gcc-ar15.com"
+      - "C:/Windows/System32/config/systemprofile/AppData/Local/Muse Hub/lib/gcc-ar15.exe"
+      - "C:/Windows/System32/config/systemprofile/AppData/Local/Muse Hub/lib/gcc-ar15"
       - "C:/Program Files/CMake/bin/gcc-ar15.com"
       - "C:/Program Files/CMake/bin/gcc-ar15.exe"
       - "C:/Program Files/CMake/bin/gcc-ar15"
@@ -1559,7 +1597,7 @@ events:
         - "C:/Program Files/Git/cmd"
         - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
         - "C:/Users/rapha/AppData/Local/Muse Hub/lib"
-        - "C:\\Users\\rapha\\AppData\\Local\\Muse Hub\\lib"
+        - "C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Muse Hub\\lib"
         - "C:/WINDOWS/system32"
         - "C:\\WINDOWS"
         - "C:/WINDOWS/System32/Wbem"
@@ -1580,12 +1618,13 @@ events:
         - "C:\\Users\\rapha\\AppData\\Local\\Python\\pythoncore-3.14-64\\include"
         - "C:/Program Files/JetBrains/CLion 2025.3.2/bin"
         - "C:\\msys64\\ucrt64\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Users/rapha/VsCodeProjects/OptiTools/install"
   -
     kind: "find-v1"
     backtrace:
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/Compiler/GNU-FindBinUtils.cmake:30 (find_program)"
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
-      - "CMakeLists.txt:2 (project)"
+      - "CMakeLists.txt:5 (project)"
     mode: "program"
     variable: "CMAKE_CXX_COMPILER_RANLIB"
     description: "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
@@ -1611,12 +1650,13 @@ events:
       - "C:/Windows/System32/WindowsPowerShell/v1.0/"
       - "C:/Windows/System32/OpenSSH/"
       - "C:/Program Files/dotnet/"
-      - "C:/Users/rapha/VsCodeProjects/HelloWorld/build/%HIP_PATH%bin/"
+      - "C:/Users/rapha/VsCodeProjects/OptiTools/build/%HIP_PATH%bin/"
       - "C:/Users/rapha/Documents/Apps/ZLUDA/"
       - "C:/Program Files/Git LFS/"
       - "C:/Program Files/Git/cmd/"
       - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
       - "C:/Users/rapha/AppData/Local/Muse Hub/lib/"
+      - "C:/Windows/System32/config/systemprofile/AppData/Local/Muse Hub/lib/"
       - "C:/Program Files/CMake/bin/"
       - "C:/Users/rapha/AppData/Roaming/.dotnet/"
       - "C:/Users/rapha/AppData/Local/Microsoft/WindowsApps/"
@@ -1655,9 +1695,9 @@ events:
       - "C:/Program Files/dotnet/gcc-ranlib-15.2.com"
       - "C:/Program Files/dotnet/gcc-ranlib-15.2.exe"
       - "C:/Program Files/dotnet/gcc-ranlib-15.2"
-      - "C:/Users/rapha/VsCodeProjects/HelloWorld/build/%HIP_PATH%bin/gcc-ranlib-15.2.com"
-      - "C:/Users/rapha/VsCodeProjects/HelloWorld/build/%HIP_PATH%bin/gcc-ranlib-15.2.exe"
-      - "C:/Users/rapha/VsCodeProjects/HelloWorld/build/%HIP_PATH%bin/gcc-ranlib-15.2"
+      - "C:/Users/rapha/VsCodeProjects/OptiTools/build/%HIP_PATH%bin/gcc-ranlib-15.2.com"
+      - "C:/Users/rapha/VsCodeProjects/OptiTools/build/%HIP_PATH%bin/gcc-ranlib-15.2.exe"
+      - "C:/Users/rapha/VsCodeProjects/OptiTools/build/%HIP_PATH%bin/gcc-ranlib-15.2"
       - "C:/Users/rapha/Documents/Apps/ZLUDA/gcc-ranlib-15.2.com"
       - "C:/Users/rapha/Documents/Apps/ZLUDA/gcc-ranlib-15.2.exe"
       - "C:/Users/rapha/Documents/Apps/ZLUDA/gcc-ranlib-15.2"
@@ -1673,6 +1713,9 @@ events:
       - "C:/Users/rapha/AppData/Local/Muse Hub/lib/gcc-ranlib-15.2.com"
       - "C:/Users/rapha/AppData/Local/Muse Hub/lib/gcc-ranlib-15.2.exe"
       - "C:/Users/rapha/AppData/Local/Muse Hub/lib/gcc-ranlib-15.2"
+      - "C:/Windows/System32/config/systemprofile/AppData/Local/Muse Hub/lib/gcc-ranlib-15.2.com"
+      - "C:/Windows/System32/config/systemprofile/AppData/Local/Muse Hub/lib/gcc-ranlib-15.2.exe"
+      - "C:/Windows/System32/config/systemprofile/AppData/Local/Muse Hub/lib/gcc-ranlib-15.2"
       - "C:/Program Files/CMake/bin/gcc-ranlib-15.2.com"
       - "C:/Program Files/CMake/bin/gcc-ranlib-15.2.exe"
       - "C:/Program Files/CMake/bin/gcc-ranlib-15.2"
@@ -1736,9 +1779,9 @@ events:
       - "C:/Program Files/dotnet/gcc-ranlib-15.com"
       - "C:/Program Files/dotnet/gcc-ranlib-15.exe"
       - "C:/Program Files/dotnet/gcc-ranlib-15"
-      - "C:/Users/rapha/VsCodeProjects/HelloWorld/build/%HIP_PATH%bin/gcc-ranlib-15.com"
-      - "C:/Users/rapha/VsCodeProjects/HelloWorld/build/%HIP_PATH%bin/gcc-ranlib-15.exe"
-      - "C:/Users/rapha/VsCodeProjects/HelloWorld/build/%HIP_PATH%bin/gcc-ranlib-15"
+      - "C:/Users/rapha/VsCodeProjects/OptiTools/build/%HIP_PATH%bin/gcc-ranlib-15.com"
+      - "C:/Users/rapha/VsCodeProjects/OptiTools/build/%HIP_PATH%bin/gcc-ranlib-15.exe"
+      - "C:/Users/rapha/VsCodeProjects/OptiTools/build/%HIP_PATH%bin/gcc-ranlib-15"
       - "C:/Users/rapha/Documents/Apps/ZLUDA/gcc-ranlib-15.com"
       - "C:/Users/rapha/Documents/Apps/ZLUDA/gcc-ranlib-15.exe"
       - "C:/Users/rapha/Documents/Apps/ZLUDA/gcc-ranlib-15"
@@ -1754,6 +1797,9 @@ events:
       - "C:/Users/rapha/AppData/Local/Muse Hub/lib/gcc-ranlib-15.com"
       - "C:/Users/rapha/AppData/Local/Muse Hub/lib/gcc-ranlib-15.exe"
       - "C:/Users/rapha/AppData/Local/Muse Hub/lib/gcc-ranlib-15"
+      - "C:/Windows/System32/config/systemprofile/AppData/Local/Muse Hub/lib/gcc-ranlib-15.com"
+      - "C:/Windows/System32/config/systemprofile/AppData/Local/Muse Hub/lib/gcc-ranlib-15.exe"
+      - "C:/Windows/System32/config/systemprofile/AppData/Local/Muse Hub/lib/gcc-ranlib-15"
       - "C:/Program Files/CMake/bin/gcc-ranlib-15.com"
       - "C:/Program Files/CMake/bin/gcc-ranlib-15.exe"
       - "C:/Program Files/CMake/bin/gcc-ranlib-15"
@@ -1817,9 +1863,9 @@ events:
       - "C:/Program Files/dotnet/gcc-ranlib15.com"
       - "C:/Program Files/dotnet/gcc-ranlib15.exe"
       - "C:/Program Files/dotnet/gcc-ranlib15"
-      - "C:/Users/rapha/VsCodeProjects/HelloWorld/build/%HIP_PATH%bin/gcc-ranlib15.com"
-      - "C:/Users/rapha/VsCodeProjects/HelloWorld/build/%HIP_PATH%bin/gcc-ranlib15.exe"
-      - "C:/Users/rapha/VsCodeProjects/HelloWorld/build/%HIP_PATH%bin/gcc-ranlib15"
+      - "C:/Users/rapha/VsCodeProjects/OptiTools/build/%HIP_PATH%bin/gcc-ranlib15.com"
+      - "C:/Users/rapha/VsCodeProjects/OptiTools/build/%HIP_PATH%bin/gcc-ranlib15.exe"
+      - "C:/Users/rapha/VsCodeProjects/OptiTools/build/%HIP_PATH%bin/gcc-ranlib15"
       - "C:/Users/rapha/Documents/Apps/ZLUDA/gcc-ranlib15.com"
       - "C:/Users/rapha/Documents/Apps/ZLUDA/gcc-ranlib15.exe"
       - "C:/Users/rapha/Documents/Apps/ZLUDA/gcc-ranlib15"
@@ -1835,6 +1881,9 @@ events:
       - "C:/Users/rapha/AppData/Local/Muse Hub/lib/gcc-ranlib15.com"
       - "C:/Users/rapha/AppData/Local/Muse Hub/lib/gcc-ranlib15.exe"
       - "C:/Users/rapha/AppData/Local/Muse Hub/lib/gcc-ranlib15"
+      - "C:/Windows/System32/config/systemprofile/AppData/Local/Muse Hub/lib/gcc-ranlib15.com"
+      - "C:/Windows/System32/config/systemprofile/AppData/Local/Muse Hub/lib/gcc-ranlib15.exe"
+      - "C:/Windows/System32/config/systemprofile/AppData/Local/Muse Hub/lib/gcc-ranlib15"
       - "C:/Program Files/CMake/bin/gcc-ranlib15.com"
       - "C:/Program Files/CMake/bin/gcc-ranlib15.exe"
       - "C:/Program Files/CMake/bin/gcc-ranlib15"
@@ -1894,7 +1943,7 @@ events:
         - "C:/Program Files/Git/cmd"
         - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
         - "C:/Users/rapha/AppData/Local/Muse Hub/lib"
-        - "C:\\Users\\rapha\\AppData\\Local\\Muse Hub\\lib"
+        - "C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Muse Hub\\lib"
         - "C:/WINDOWS/system32"
         - "C:\\WINDOWS"
         - "C:/WINDOWS/System32/Wbem"
@@ -1915,6 +1964,7 @@ events:
         - "C:\\Users\\rapha\\AppData\\Local\\Python\\pythoncore-3.14-64\\include"
         - "C:/Program Files/JetBrains/CLion 2025.3.2/bin"
         - "C:\\msys64\\ucrt64\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Users/rapha/VsCodeProjects/OptiTools/install"
   -
     kind: "find-v1"
     backtrace:
@@ -1922,7 +1972,7 @@ events:
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/Platform/Windows-GNU.cmake:167 (enable_language)"
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/Platform/Windows-GNU-CXX.cmake:2 (__windows_compiler_gnu)"
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeCXXInformation.cmake:48 (include)"
-      - "CMakeLists.txt:2 (project)"
+      - "CMakeLists.txt:5 (project)"
     mode: "program"
     variable: "CMAKE_RC_COMPILER"
     description: "RC compiler"
@@ -1946,12 +1996,13 @@ events:
       - "C:/Windows/System32/WindowsPowerShell/v1.0/"
       - "C:/Windows/System32/OpenSSH/"
       - "C:/Program Files/dotnet/"
-      - "C:/Users/rapha/VsCodeProjects/HelloWorld/build/%HIP_PATH%bin/"
+      - "C:/Users/rapha/VsCodeProjects/OptiTools/build/%HIP_PATH%bin/"
       - "C:/Users/rapha/Documents/Apps/ZLUDA/"
       - "C:/Program Files/Git LFS/"
       - "C:/Program Files/Git/cmd/"
       - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
       - "C:/Users/rapha/AppData/Local/Muse Hub/lib/"
+      - "C:/Windows/System32/config/systemprofile/AppData/Local/Muse Hub/lib/"
       - "C:/Program Files/CMake/bin/"
       - "C:/Users/rapha/AppData/Roaming/.dotnet/"
       - "C:/Users/rapha/AppData/Local/Microsoft/WindowsApps/"
@@ -1977,9 +2028,9 @@ events:
       - "C:/Program Files/CMake/bin/"
       - "C:/Program Files/CMake/sbin/"
       - "C:/Program Files/CMake/"
-      - "C:/Program Files (x86)/example/bin/"
-      - "C:/Program Files (x86)/example/sbin/"
-      - "C:/Program Files (x86)/example/"
+      - "C:/Users/rapha/VsCodeProjects/OptiTools/install/bin/"
+      - "C:/Users/rapha/VsCodeProjects/OptiTools/install/sbin/"
+      - "C:/Users/rapha/VsCodeProjects/OptiTools/install/"
     searched_directories:
       - "C:/msys64/ucrt64/bin/windres.com"
     found: "C:/msys64/ucrt64/bin/windres.exe"
@@ -2001,7 +2052,7 @@ events:
         - "C:/Program Files/Git/cmd"
         - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
         - "C:/Users/rapha/AppData/Local/Muse Hub/lib"
-        - "C:\\Users\\rapha\\AppData\\Local\\Muse Hub\\lib"
+        - "C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Muse Hub\\lib"
         - "C:/WINDOWS/system32"
         - "C:\\WINDOWS"
         - "C:/WINDOWS/System32/Wbem"
@@ -2022,24 +2073,24 @@ events:
         - "C:\\Users\\rapha\\AppData\\Local\\Python\\pythoncore-3.14-64\\include"
         - "C:/Program Files/JetBrains/CLion 2025.3.2/bin"
         - "C:\\msys64\\ucrt64\\bin"
-      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/example"
+      CMAKE_INSTALL_PREFIX: "C:/Users/rapha/VsCodeProjects/OptiTools/install"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "C:/msys64/ucrt64"
         - "C:/Program Files"
         - "C:/Program Files (x86)"
         - "C:/Program Files/CMake"
-        - "C:/Program Files (x86)/example"
+        - "C:/Users/rapha/VsCodeProjects/OptiTools/install"
   -
     kind: "try_compile-v1"
     backtrace:
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:2 (project)"
+      - "CMakeLists.txt:5 (project)"
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/Users/rapha/VsCodeProjects/HelloWorld/build/CMakeFiles/CMakeScratch/TryCompile-eru5ap"
-      binary: "C:/Users/rapha/VsCodeProjects/HelloWorld/build/CMakeFiles/CMakeScratch/TryCompile-eru5ap"
+      source: "C:/Users/rapha/VsCodeProjects/OptiTools/build/CMakeFiles/CMakeScratch/TryCompile-bijnsw"
+      binary: "C:/Users/rapha/VsCodeProjects/OptiTools/build/CMakeFiles/CMakeScratch/TryCompile-bijnsw"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -2049,13 +2100,13 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/rapha/VsCodeProjects/HelloWorld/build/CMakeFiles/CMakeScratch/TryCompile-eru5ap'
+        Change Dir: 'C:/Users/rapha/VsCodeProjects/OptiTools/build/CMakeFiles/CMakeScratch/TryCompile-bijnsw'
         
-        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_10a5d/fast
-        C:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_10a5d.dir\\build.make CMakeFiles/cmTC_10a5d.dir/build
-        mingw32-make[1]: Entering directory 'C:/Users/rapha/VsCodeProjects/HelloWorld/build/CMakeFiles/CMakeScratch/TryCompile-eru5ap'
-        Building CXX object CMakeFiles/cmTC_10a5d.dir/CMakeCXXCompilerABI.cpp.obj
-        C:\\msys64\\ucrt64\\bin\\g++.exe   -v -o CMakeFiles\\cmTC_10a5d.dir\\CMakeCXXCompilerABI.cpp.obj -c "C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp"
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_25ff6/fast
+        C:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_25ff6.dir\\build.make CMakeFiles/cmTC_25ff6.dir/build
+        mingw32-make[1]: Entering directory 'C:/Users/rapha/VsCodeProjects/OptiTools/build/CMakeFiles/CMakeScratch/TryCompile-bijnsw'
+        Building CXX object CMakeFiles/cmTC_25ff6.dir/CMakeCXXCompilerABI.cpp.obj
+        C:\\msys64\\ucrt64\\bin\\g++.exe   -v -o CMakeFiles\\cmTC_25ff6.dir\\CMakeCXXCompilerABI.cpp.obj -c "C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp"
         Using built-in specs.
         COLLECT_GCC=C:\\msys64\\ucrt64\\bin\\g++.exe
         Target: x86_64-w64-mingw32
@@ -2063,8 +2114,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib zstd
         gcc version 15.2.0 (Rev8, Built by MSYS2 project) 
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_10a5d.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_10a5d.dir\\'
-         C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/cc1plus.exe -quiet -v -iprefix C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/ -D_REENTRANT C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\\cmTC_10a5d.dir\\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=nocona -version -o C:\\Users\\rapha\\AppData\\Local\\Temp\\ccJ2M0az.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_25ff6.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_25ff6.dir\\'
+         C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/cc1plus.exe -quiet -v -iprefix C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/ -D_REENTRANT C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\\cmTC_25ff6.dir\\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=nocona -version -o C:\\Users\\rapha\\AppData\\Local\\Temp\\ccjAONHG.s
         GNU C++17 (Rev8, Built by MSYS2 project) version 15.2.0 (x86_64-w64-mingw32)
         	compiled by GNU C version 15.2.0, GMP version 6.3.0, MPFR version 4.2.2, MPC version 1.3.1, isl version isl-0.27-GMP
         
@@ -2089,14 +2140,14 @@ events:
          C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/include-fixed
         End of search list.
         Compiler executable checksum: 3a1a95c83f0136a64748ec8c5a2a87f3
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_10a5d.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_10a5d.dir\\'
-         C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_10a5d.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\rapha\\AppData\\Local\\Temp\\ccJ2M0az.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_25ff6.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_25ff6.dir\\'
+         C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_25ff6.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\rapha\\AppData\\Local\\Temp\\ccjAONHG.s
         GNU assembler version 2.45 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.45
         COMPILER_PATH=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/;C:/msys64/ucrt64/bin/../lib/gcc/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/
         LIBRARY_PATH=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/;C:/msys64/ucrt64/bin/../lib/gcc/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_10a5d.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_10a5d.dir\\CMakeCXXCompilerABI.cpp.'
-        Linking CXX executable cmTC_10a5d.exe
-        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_10a5d.dir\\link.txt --verbose=1
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_25ff6.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_25ff6.dir\\CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_25ff6.exe
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_25ff6.dir\\link.txt --verbose=1
         Using built-in specs.
         COLLECT_GCC=C:\\msys64\\ucrt64\\bin\\g++.exe
         COLLECT_LTO_WRAPPER=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe
@@ -2107,16 +2158,16 @@ events:
         gcc version 15.2.0 (Rev8, Built by MSYS2 project) 
         COMPILER_PATH=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/;C:/msys64/ucrt64/bin/../lib/gcc/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/
         LIBRARY_PATH=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/;C:/msys64/ucrt64/bin/../lib/gcc/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/;C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_10a5d.exe' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_10a5d.'
-         C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/collect2.exe -plugin C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.dll -plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\rapha\\AppData\\Local\\Temp\\ccVghAdI.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_10a5d.exe C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/crt2.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LC:/msys64/ucrt64/bin/../lib/gcc -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_10a5d.dir/objects.a --no-whole-archive --out-implib libcmTC_10a5d.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/default-manifest.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_25ff6.exe' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_25ff6.'
+         C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/collect2.exe -plugin C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.dll -plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\rapha\\AppData\\Local\\Temp\\cc9CjBIJ.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_25ff6.exe C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/crt2.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LC:/msys64/ucrt64/bin/../lib/gcc -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_25ff6.dir/objects.a --no-whole-archive --out-implib libcmTC_25ff6.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/default-manifest.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o
         collect2 version 15.2.0
-        C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.dll -plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\rapha\\AppData\\Local\\Temp\\ccVghAdI.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_10a5d.exe C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/crt2.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LC:/msys64/ucrt64/bin/../lib/gcc -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_10a5d.dir/objects.a --no-whole-archive --out-implib libcmTC_10a5d.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/default-manifest.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o
+        C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.dll -plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\rapha\\AppData\\Local\\Temp\\cc9CjBIJ.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_25ff6.exe C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/crt2.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LC:/msys64/ucrt64/bin/../lib/gcc -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_25ff6.dir/objects.a --no-whole-archive --out-implib libcmTC_25ff6.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/default-manifest.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o
         GNU ld (GNU Binutils) 2.45
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_10a5d.exe' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_10a5d.'
-        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_10a5d.dir/objects.a
-        C:\\msys64\\ucrt64\\bin\\ar.exe qc CMakeFiles\\cmTC_10a5d.dir/objects.a @CMakeFiles\\cmTC_10a5d.dir\\objects1.rsp
-        C:\\msys64\\ucrt64\\bin\\g++.exe  -v -Wl,-v -Wl,--whole-archive CMakeFiles\\cmTC_10a5d.dir/objects.a -Wl,--no-whole-archive -o cmTC_10a5d.exe -Wl,--out-implib,libcmTC_10a5d.dll.a -Wl,--major-image-version,0,--minor-image-version,0
-        mingw32-make[1]: Leaving directory 'C:/Users/rapha/VsCodeProjects/HelloWorld/build/CMakeFiles/CMakeScratch/TryCompile-eru5ap'
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_25ff6.exe' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_25ff6.'
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_25ff6.dir/objects.a
+        C:\\msys64\\ucrt64\\bin\\ar.exe qc CMakeFiles\\cmTC_25ff6.dir/objects.a @CMakeFiles\\cmTC_25ff6.dir\\objects1.rsp
+        C:\\msys64\\ucrt64\\bin\\g++.exe -v -Wl,-v -Wl,--whole-archive CMakeFiles\\cmTC_25ff6.dir/objects.a -Wl,--no-whole-archive -o cmTC_25ff6.exe -Wl,--out-implib,libcmTC_25ff6.dll.a -Wl,--major-image-version,0,--minor-image-version,0
+        mingw32-make[1]: Leaving directory 'C:/Users/rapha/VsCodeProjects/OptiTools/build/CMakeFiles/CMakeScratch/TryCompile-bijnsw'
         
       exitCode: 0
   -
@@ -2124,7 +2175,7 @@ events:
     backtrace:
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:217 (message)"
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:2 (project)"
+      - "CMakeLists.txt:5 (project)"
     message: |
       Parsed CXX implicit include dir info: rv=done
         found start of include info
@@ -2150,18 +2201,18 @@ events:
     backtrace:
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:2 (project)"
+      - "CMakeLists.txt:5 (project)"
     message: |
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: 'C:/Users/rapha/VsCodeProjects/HelloWorld/build/CMakeFiles/CMakeScratch/TryCompile-eru5ap']
+        ignore line: [Change Dir: 'C:/Users/rapha/VsCodeProjects/OptiTools/build/CMakeFiles/CMakeScratch/TryCompile-bijnsw']
         ignore line: []
-        ignore line: [Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_10a5d/fast]
-        ignore line: [C:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_10a5d.dir\\build.make CMakeFiles/cmTC_10a5d.dir/build]
-        ignore line: [mingw32-make[1]: Entering directory 'C:/Users/rapha/VsCodeProjects/HelloWorld/build/CMakeFiles/CMakeScratch/TryCompile-eru5ap']
-        ignore line: [Building CXX object CMakeFiles/cmTC_10a5d.dir/CMakeCXXCompilerABI.cpp.obj]
-        ignore line: [C:\\msys64\\ucrt64\\bin\\g++.exe   -v -o CMakeFiles\\cmTC_10a5d.dir\\CMakeCXXCompilerABI.cpp.obj -c "C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp"]
+        ignore line: [Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/msys64/ucrt64/bin/mingw32-make.exe -f Makefile cmTC_25ff6/fast]
+        ignore line: [C:/msys64/ucrt64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_25ff6.dir\\build.make CMakeFiles/cmTC_25ff6.dir/build]
+        ignore line: [mingw32-make[1]: Entering directory 'C:/Users/rapha/VsCodeProjects/OptiTools/build/CMakeFiles/CMakeScratch/TryCompile-bijnsw']
+        ignore line: [Building CXX object CMakeFiles/cmTC_25ff6.dir/CMakeCXXCompilerABI.cpp.obj]
+        ignore line: [C:\\msys64\\ucrt64\\bin\\g++.exe   -v -o CMakeFiles\\cmTC_25ff6.dir\\CMakeCXXCompilerABI.cpp.obj -c "C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp"]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=C:\\msys64\\ucrt64\\bin\\g++.exe]
         ignore line: [Target: x86_64-w64-mingw32]
@@ -2169,8 +2220,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib zstd]
         ignore line: [gcc version 15.2.0 (Rev8  Built by MSYS2 project) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_10a5d.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_10a5d.dir\\']
-        ignore line: [ C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/cc1plus.exe -quiet -v -iprefix C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/ -D_REENTRANT C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\\cmTC_10a5d.dir\\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=nocona -version -o C:\\Users\\rapha\\AppData\\Local\\Temp\\ccJ2M0az.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_25ff6.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_25ff6.dir\\']
+        ignore line: [ C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/cc1plus.exe -quiet -v -iprefix C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/ -D_REENTRANT C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\\cmTC_25ff6.dir\\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=nocona -version -o C:\\Users\\rapha\\AppData\\Local\\Temp\\ccjAONHG.s]
         ignore line: [GNU C++17 (Rev8  Built by MSYS2 project) version 15.2.0 (x86_64-w64-mingw32)]
         ignore line: [	compiled by GNU C version 15.2.0  GMP version 6.3.0  MPFR version 4.2.2  MPC version 1.3.1  isl version isl-0.27-GMP]
         ignore line: []
@@ -2195,8 +2246,8 @@ events:
         ignore line: [ C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/include-fixed]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: 3a1a95c83f0136a64748ec8c5a2a87f3]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_10a5d.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_10a5d.dir\\']
-        ignore line: [ C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_10a5d.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\rapha\\AppData\\Local\\Temp\\ccJ2M0az.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_25ff6.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_25ff6.dir\\']
+        ignore line: [ C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_25ff6.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\rapha\\AppData\\Local\\Temp\\ccjAONHG.s]
         ignore line: [GNU assembler version 2.45 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.45]
         ignore line: [COMPILER_PATH=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/]
         ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/]
@@ -2207,9 +2258,9 @@ events:
         ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/]
         ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/]
         ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_10a5d.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_10a5d.dir\\CMakeCXXCompilerABI.cpp.']
-        ignore line: [Linking CXX executable cmTC_10a5d.exe]
-        ignore line: ["C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_10a5d.dir\\link.txt --verbose=1]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_25ff6.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_25ff6.dir\\CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_25ff6.exe]
+        ignore line: ["C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_25ff6.dir\\link.txt --verbose=1]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=C:\\msys64\\ucrt64\\bin\\g++.exe]
         ignore line: [COLLECT_LTO_WRAPPER=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe]
@@ -2227,13 +2278,13 @@ events:
         ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/]
         ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/]
         ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_10a5d.exe' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_10a5d.']
-        link line: [ C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/collect2.exe -plugin C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.dll -plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\rapha\\AppData\\Local\\Temp\\ccVghAdI.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_10a5d.exe C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/crt2.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LC:/msys64/ucrt64/bin/../lib/gcc -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_10a5d.dir/objects.a --no-whole-archive --out-implib libcmTC_10a5d.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/default-manifest.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_25ff6.exe' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_25ff6.']
+        link line: [ C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/collect2.exe -plugin C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.dll -plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\rapha\\AppData\\Local\\Temp\\cc9CjBIJ.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_25ff6.exe C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/crt2.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LC:/msys64/ucrt64/bin/../lib/gcc -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_25ff6.dir/objects.a --no-whole-archive --out-implib libcmTC_25ff6.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/default-manifest.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o]
           arg [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/collect2.exe] ==> ignore
           arg [-plugin] ==> ignore
           arg [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.dll] ==> ignore
           arg [-plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe] ==> ignore
-          arg [-plugin-opt=-fresolution=C:\\Users\\rapha\\AppData\\Local\\Temp\\ccVghAdI.res] ==> ignore
+          arg [-plugin-opt=-fresolution=C:\\Users\\rapha\\AppData\\Local\\Temp\\cc9CjBIJ.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
@@ -2255,7 +2306,7 @@ events:
           arg [i386pep] ==> ignore
           arg [-Bdynamic] ==> search dynamic
           arg [-o] ==> ignore
-          arg [cmTC_10a5d.exe] ==> ignore
+          arg [cmTC_25ff6.exe] ==> ignore
           arg [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/crt2.o] ==> obj [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/crt2.o]
           arg [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o] ==> obj [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o]
           arg [-LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0] ==> dir [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0]
@@ -2266,10 +2317,10 @@ events:
           arg [-LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../..] ==> dir [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../..]
           arg [-v] ==> ignore
           arg [--whole-archive] ==> ignore
-          arg [CMakeFiles\\cmTC_10a5d.dir/objects.a] ==> ignore
+          arg [CMakeFiles\\cmTC_25ff6.dir/objects.a] ==> ignore
           arg [--no-whole-archive] ==> ignore
           arg [--out-implib] ==> ignore
-          arg [libcmTC_10a5d.dll.a] ==> ignore
+          arg [libcmTC_25ff6.dll.a] ==> ignore
           arg [--major-image-version] ==> ignore
           arg [0] ==> ignore
           arg [--minor-image-version] ==> ignore
@@ -2295,7 +2346,7 @@ events:
           arg [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/default-manifest.o] ==> obj [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/default-manifest.o]
           arg [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o] ==> obj [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o]
         ignore line: [collect2 version 15.2.0]
-        ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.dll -plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\rapha\\AppData\\Local\\Temp\\ccVghAdI.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_10a5d.exe C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/crt2.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LC:/msys64/ucrt64/bin/../lib/gcc -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_10a5d.dir/objects.a --no-whole-archive --out-implib libcmTC_10a5d.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/default-manifest.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o]
+        ignore line: [C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/liblto_plugin.dll -plugin-opt=C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\rapha\\AppData\\Local\\Temp\\cc9CjBIJ.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_25ff6.exe C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/crt2.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtbegin.o -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0 -LC:/msys64/ucrt64/bin/../lib/gcc -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../x86_64-w64-mingw32/lib -LC:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_25ff6.dir/objects.a --no-whole-archive --out-implib libcmTC_25ff6.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/../../../../lib/default-manifest.o C:/msys64/ucrt64/bin/../lib/gcc/x86_64-w64-mingw32/15.2.0/crtend.o]
         linker tool for 'CXX': C:/msys64/ucrt64/x86_64-w64-mingw32/bin/ld.exe
         remove lib [msvcrt]
         remove lib [msvcrt]
@@ -2321,16 +2372,300 @@ events:
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/Internal/CMakeDetermineLinkerId.cmake:38 (message)"
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:2 (project)"
+      - "CMakeLists.txt:5 (project)"
     message: |
       Running the CXX compiler's linker: "C:/msys64/ucrt64/x86_64-w64-mingw32/bin/ld.exe" "-v"
       GNU ld (GNU Binutils) 2.45
   -
     kind: "find-v1"
     backtrace:
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/FindGit.cmake:111 (find_program)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/ExternalProject/shared_internal_commands.cmake:926 (find_package)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/FetchContent.cmake:1700 (_ep_add_download_command)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/FetchContent.cmake:1617 (__FetchContent_populateDirect)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/FetchContent.cmake:2155:EVAL:2 (__FetchContent_doPopulation)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/FetchContent.cmake:2155 (cmake_language)"
+      - "C:/Program Files/CMake/share/cmake-4.2/Modules/FetchContent.cmake:2394 (__FetchContent_Populate)"
+      - "CMakeLists.txt:29 (FetchContent_MakeAvailable)"
+    mode: "program"
+    variable: "GIT_EXECUTABLE"
+    description: "Git command line client"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "git.cmd"
+      - "git"
+    candidate_directories:
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/msys64/usr/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/Users/rapha/VsCodeProjects/OptiTools/build/%HIP_PATH%bin/"
+      - "C:/Users/rapha/Documents/Apps/ZLUDA/"
+      - "C:/Program Files/Git LFS/"
+      - "C:/Program Files/Git/cmd/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Users/rapha/AppData/Local/Muse Hub/lib/"
+      - "C:/Windows/System32/config/systemprofile/AppData/Local/Muse Hub/lib/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Users/rapha/AppData/Roaming/.dotnet/"
+      - "C:/Users/rapha/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/rapha/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/MinGW/bin/"
+      - "C:/Program Files/JetBrains/PyCharm 2024.3/bin/"
+      - "C:/Users/rapha/.dotnet/tools/"
+      - "C:/Users/rapha/AppData/Local/Python/bin/"
+      - "C:/Users/rapha/AppData/Local/Python/pythoncore-3.14-64/Scripts/"
+      - "C:/Users/rapha/AppData/Local/Programs/MiKTeX/miktex/bin/x64/"
+      - "C:/Users/rapha/AppData/Local/PowerToys/DSCModules/"
+      - "C:/Users/rapha/AppData/Local/Python/pythoncore-3.14-64/include/"
+      - "C:/Program Files/JetBrains/CLion 2025.3.2/bin/"
+      - "C:/msys64/ucrt64/bin/"
+      - "C:/msys64/ucrt64/sbin/"
+      - "C:/msys64/ucrt64/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "C:/Program Files/CMake/bin/"
+      - "C:/Program Files/CMake/sbin/"
+      - "C:/Program Files/CMake/"
+      - "C:/Users/rapha/VsCodeProjects/OptiTools/install/bin/"
+      - "C:/Users/rapha/VsCodeProjects/OptiTools/install/sbin/"
+      - "C:/Users/rapha/VsCodeProjects/OptiTools/install/"
+      - "C:/Users/rapha/AppData/Local/Atlassian/SourceTree/git_local/bin/"
+    searched_directories:
+      - "C:/msys64/ucrt64/bin/git.cmd.com"
+      - "C:/msys64/ucrt64/bin/git.cmd.exe"
+      - "C:/msys64/ucrt64/bin/git.cmd"
+      - "C:/msys64/usr/bin/git.cmd.com"
+      - "C:/msys64/usr/bin/git.cmd.exe"
+      - "C:/msys64/usr/bin/git.cmd"
+      - "C:/Windows/System32/git.cmd.com"
+      - "C:/Windows/System32/git.cmd.exe"
+      - "C:/Windows/System32/git.cmd"
+      - "C:/Windows/git.cmd.com"
+      - "C:/Windows/git.cmd.exe"
+      - "C:/Windows/git.cmd"
+      - "C:/Windows/System32/wbem/git.cmd.com"
+      - "C:/Windows/System32/wbem/git.cmd.exe"
+      - "C:/Windows/System32/wbem/git.cmd"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/git.cmd.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/git.cmd.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/git.cmd"
+      - "C:/Windows/System32/OpenSSH/git.cmd.com"
+      - "C:/Windows/System32/OpenSSH/git.cmd.exe"
+      - "C:/Windows/System32/OpenSSH/git.cmd"
+      - "C:/Program Files/dotnet/git.cmd.com"
+      - "C:/Program Files/dotnet/git.cmd.exe"
+      - "C:/Program Files/dotnet/git.cmd"
+      - "C:/Users/rapha/VsCodeProjects/OptiTools/build/%HIP_PATH%bin/git.cmd.com"
+      - "C:/Users/rapha/VsCodeProjects/OptiTools/build/%HIP_PATH%bin/git.cmd.exe"
+      - "C:/Users/rapha/VsCodeProjects/OptiTools/build/%HIP_PATH%bin/git.cmd"
+      - "C:/Users/rapha/Documents/Apps/ZLUDA/git.cmd.com"
+      - "C:/Users/rapha/Documents/Apps/ZLUDA/git.cmd.exe"
+      - "C:/Users/rapha/Documents/Apps/ZLUDA/git.cmd"
+      - "C:/Program Files/Git LFS/git.cmd.com"
+      - "C:/Program Files/Git LFS/git.cmd.exe"
+      - "C:/Program Files/Git LFS/git.cmd"
+      - "C:/Program Files/Git/cmd/git.cmd.com"
+      - "C:/Program Files/Git/cmd/git.cmd.exe"
+      - "C:/Program Files/Git/cmd/git.cmd"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/git.cmd.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/git.cmd.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/git.cmd"
+      - "C:/Users/rapha/AppData/Local/Muse Hub/lib/git.cmd.com"
+      - "C:/Users/rapha/AppData/Local/Muse Hub/lib/git.cmd.exe"
+      - "C:/Users/rapha/AppData/Local/Muse Hub/lib/git.cmd"
+      - "C:/Windows/System32/config/systemprofile/AppData/Local/Muse Hub/lib/git.cmd.com"
+      - "C:/Windows/System32/config/systemprofile/AppData/Local/Muse Hub/lib/git.cmd.exe"
+      - "C:/Windows/System32/config/systemprofile/AppData/Local/Muse Hub/lib/git.cmd"
+      - "C:/Program Files/CMake/bin/git.cmd.com"
+      - "C:/Program Files/CMake/bin/git.cmd.exe"
+      - "C:/Program Files/CMake/bin/git.cmd"
+      - "C:/Users/rapha/AppData/Roaming/.dotnet/git.cmd.com"
+      - "C:/Users/rapha/AppData/Roaming/.dotnet/git.cmd.exe"
+      - "C:/Users/rapha/AppData/Roaming/.dotnet/git.cmd"
+      - "C:/Users/rapha/AppData/Local/Microsoft/WindowsApps/git.cmd.com"
+      - "C:/Users/rapha/AppData/Local/Microsoft/WindowsApps/git.cmd.exe"
+      - "C:/Users/rapha/AppData/Local/Microsoft/WindowsApps/git.cmd"
+      - "C:/Users/rapha/AppData/Local/Programs/Microsoft VS Code/bin/git.cmd.com"
+      - "C:/Users/rapha/AppData/Local/Programs/Microsoft VS Code/bin/git.cmd.exe"
+      - "C:/Users/rapha/AppData/Local/Programs/Microsoft VS Code/bin/git.cmd"
+      - "C:/MinGW/bin/git.cmd.com"
+      - "C:/MinGW/bin/git.cmd.exe"
+      - "C:/MinGW/bin/git.cmd"
+      - "C:/Program Files/JetBrains/PyCharm 2024.3/bin/git.cmd.com"
+      - "C:/Program Files/JetBrains/PyCharm 2024.3/bin/git.cmd.exe"
+      - "C:/Program Files/JetBrains/PyCharm 2024.3/bin/git.cmd"
+      - "C:/Users/rapha/.dotnet/tools/git.cmd.com"
+      - "C:/Users/rapha/.dotnet/tools/git.cmd.exe"
+      - "C:/Users/rapha/.dotnet/tools/git.cmd"
+      - "C:/Users/rapha/AppData/Local/Python/bin/git.cmd.com"
+      - "C:/Users/rapha/AppData/Local/Python/bin/git.cmd.exe"
+      - "C:/Users/rapha/AppData/Local/Python/bin/git.cmd"
+      - "C:/Users/rapha/AppData/Local/Python/pythoncore-3.14-64/Scripts/git.cmd.com"
+      - "C:/Users/rapha/AppData/Local/Python/pythoncore-3.14-64/Scripts/git.cmd.exe"
+      - "C:/Users/rapha/AppData/Local/Python/pythoncore-3.14-64/Scripts/git.cmd"
+      - "C:/Users/rapha/AppData/Local/Programs/MiKTeX/miktex/bin/x64/git.cmd.com"
+      - "C:/Users/rapha/AppData/Local/Programs/MiKTeX/miktex/bin/x64/git.cmd.exe"
+      - "C:/Users/rapha/AppData/Local/Programs/MiKTeX/miktex/bin/x64/git.cmd"
+      - "C:/Users/rapha/AppData/Local/PowerToys/DSCModules/git.cmd.com"
+      - "C:/Users/rapha/AppData/Local/PowerToys/DSCModules/git.cmd.exe"
+      - "C:/Users/rapha/AppData/Local/PowerToys/DSCModules/git.cmd"
+      - "C:/Users/rapha/AppData/Local/Python/pythoncore-3.14-64/include/git.cmd.com"
+      - "C:/Users/rapha/AppData/Local/Python/pythoncore-3.14-64/include/git.cmd.exe"
+      - "C:/Users/rapha/AppData/Local/Python/pythoncore-3.14-64/include/git.cmd"
+      - "C:/Program Files/JetBrains/CLion 2025.3.2/bin/git.cmd.com"
+      - "C:/Program Files/JetBrains/CLion 2025.3.2/bin/git.cmd.exe"
+      - "C:/Program Files/JetBrains/CLion 2025.3.2/bin/git.cmd"
+      - "C:/msys64/ucrt64/bin/git.cmd.com"
+      - "C:/msys64/ucrt64/bin/git.cmd.exe"
+      - "C:/msys64/ucrt64/bin/git.cmd"
+      - "C:/msys64/ucrt64/sbin/git.cmd.com"
+      - "C:/msys64/ucrt64/sbin/git.cmd.exe"
+      - "C:/msys64/ucrt64/sbin/git.cmd"
+      - "C:/msys64/ucrt64/git.cmd.com"
+      - "C:/msys64/ucrt64/git.cmd.exe"
+      - "C:/msys64/ucrt64/git.cmd"
+      - "C:/Program Files/bin/git.cmd.com"
+      - "C:/Program Files/bin/git.cmd.exe"
+      - "C:/Program Files/bin/git.cmd"
+      - "C:/Program Files/sbin/git.cmd.com"
+      - "C:/Program Files/sbin/git.cmd.exe"
+      - "C:/Program Files/sbin/git.cmd"
+      - "C:/Program Files/git.cmd.com"
+      - "C:/Program Files/git.cmd.exe"
+      - "C:/Program Files/git.cmd"
+      - "C:/Program Files (x86)/bin/git.cmd.com"
+      - "C:/Program Files (x86)/bin/git.cmd.exe"
+      - "C:/Program Files (x86)/bin/git.cmd"
+      - "C:/Program Files (x86)/sbin/git.cmd.com"
+      - "C:/Program Files (x86)/sbin/git.cmd.exe"
+      - "C:/Program Files (x86)/sbin/git.cmd"
+      - "C:/Program Files (x86)/git.cmd.com"
+      - "C:/Program Files (x86)/git.cmd.exe"
+      - "C:/Program Files (x86)/git.cmd"
+      - "C:/Program Files/CMake/bin/git.cmd.com"
+      - "C:/Program Files/CMake/bin/git.cmd.exe"
+      - "C:/Program Files/CMake/bin/git.cmd"
+      - "C:/Program Files/CMake/sbin/git.cmd.com"
+      - "C:/Program Files/CMake/sbin/git.cmd.exe"
+      - "C:/Program Files/CMake/sbin/git.cmd"
+      - "C:/Program Files/CMake/git.cmd.com"
+      - "C:/Program Files/CMake/git.cmd.exe"
+      - "C:/Program Files/CMake/git.cmd"
+      - "C:/Users/rapha/VsCodeProjects/OptiTools/install/bin/git.cmd.com"
+      - "C:/Users/rapha/VsCodeProjects/OptiTools/install/bin/git.cmd.exe"
+      - "C:/Users/rapha/VsCodeProjects/OptiTools/install/bin/git.cmd"
+      - "C:/Users/rapha/VsCodeProjects/OptiTools/install/sbin/git.cmd.com"
+      - "C:/Users/rapha/VsCodeProjects/OptiTools/install/sbin/git.cmd.exe"
+      - "C:/Users/rapha/VsCodeProjects/OptiTools/install/sbin/git.cmd"
+      - "C:/Users/rapha/VsCodeProjects/OptiTools/install/git.cmd.com"
+      - "C:/Users/rapha/VsCodeProjects/OptiTools/install/git.cmd.exe"
+      - "C:/Users/rapha/VsCodeProjects/OptiTools/install/git.cmd"
+      - "C:/Users/rapha/AppData/Local/Atlassian/SourceTree/git_local/bin/git.cmd.com"
+      - "C:/Users/rapha/AppData/Local/Atlassian/SourceTree/git_local/bin/git.cmd.exe"
+      - "C:/Users/rapha/AppData/Local/Atlassian/SourceTree/git_local/bin/git.cmd"
+      - "C:/msys64/ucrt64/bin/git.com"
+      - "C:/msys64/ucrt64/bin/git.exe"
+      - "C:/msys64/ucrt64/bin/git"
+      - "C:/msys64/usr/bin/git.com"
+      - "C:/msys64/usr/bin/git.exe"
+      - "C:/msys64/usr/bin/git"
+      - "C:/Windows/System32/git.com"
+      - "C:/Windows/System32/git.exe"
+      - "C:/Windows/System32/git"
+      - "C:/Windows/git.com"
+      - "C:/Windows/git.exe"
+      - "C:/Windows/git"
+      - "C:/Windows/System32/wbem/git.com"
+      - "C:/Windows/System32/wbem/git.exe"
+      - "C:/Windows/System32/wbem/git"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/git.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/git.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/git"
+      - "C:/Windows/System32/OpenSSH/git.com"
+      - "C:/Windows/System32/OpenSSH/git.exe"
+      - "C:/Windows/System32/OpenSSH/git"
+      - "C:/Program Files/dotnet/git.com"
+      - "C:/Program Files/dotnet/git.exe"
+      - "C:/Program Files/dotnet/git"
+      - "C:/Users/rapha/VsCodeProjects/OptiTools/build/%HIP_PATH%bin/git.com"
+      - "C:/Users/rapha/VsCodeProjects/OptiTools/build/%HIP_PATH%bin/git.exe"
+      - "C:/Users/rapha/VsCodeProjects/OptiTools/build/%HIP_PATH%bin/git"
+      - "C:/Users/rapha/Documents/Apps/ZLUDA/git.com"
+      - "C:/Users/rapha/Documents/Apps/ZLUDA/git.exe"
+      - "C:/Users/rapha/Documents/Apps/ZLUDA/git"
+      - "C:/Program Files/Git LFS/git.com"
+      - "C:/Program Files/Git LFS/git.exe"
+      - "C:/Program Files/Git LFS/git"
+      - "C:/Program Files/Git/cmd/git.com"
+    found: "C:/Program Files/Git/cmd/git.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\msys64\\ucrt64\\bin"
+        - "C:\\msys64\\usr\\bin"
+        - "C:/WINDOWS/system32"
+        - "C:\\WINDOWS"
+        - "C:/WINDOWS/System32/Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:/WINDOWS/System32/OpenSSH/"
+        - "C:\\Program Files\\dotnet\\"
+        - "%HIP_PATH%bin"
+        - "C:/Users/rapha/Documents/Apps/ZLUDA"
+        - "C:\\Program Files\\Git LFS"
+        - "C:/Program Files/Git/cmd"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:/Users/rapha/AppData/Local/Muse Hub/lib"
+        - "C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Muse Hub\\lib"
+        - "C:/WINDOWS/system32"
+        - "C:\\WINDOWS"
+        - "C:/WINDOWS/System32/Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:/WINDOWS/System32/OpenSSH/"
+        - "C:\\Program Files\\CMake\\bin"
+        - "C:/Users/rapha/AppData/Roaming/.dotnet"
+        - "C:\\Users\\rapha\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:/Users/rapha/AppData/Local/Programs/Microsoft VS Code/bin"
+        - "C:\\MinGW\\bin"
+        - "C:/Program Files/JetBrains/PyCharm 2024.3/bin"
+        - "C:\\Users\\rapha\\AppData\\Local\\Muse Hub\\lib"
+        - "C:/Users/rapha/.dotnet/tools"
+        - "C:\\Users\\rapha\\AppData\\Local\\Python\\bin"
+        - "C:/Users/rapha/AppData/Local/Python/pythoncore-3.14-64/Scripts"
+        - "C:\\Users\\rapha\\AppData\\Local\\Programs\\MiKTeX\\miktex\\bin\\x64\\"
+        - "C:/Users/rapha/AppData/Local/PowerToys/DSCModules/"
+        - "C:\\Users\\rapha\\AppData\\Local\\Python\\pythoncore-3.14-64\\include"
+        - "C:/Program Files/JetBrains/CLion 2025.3.2/bin"
+        - "C:\\msys64\\ucrt64\\bin"
+      CMAKE_INSTALL_PREFIX: "C:/Users/rapha/VsCodeProjects/OptiTools/install"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/msys64/ucrt64"
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Users/rapha/VsCodeProjects/OptiTools/install"
+  -
+    kind: "find-v1"
+    backtrace:
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/FindPython/Support.cmake:2060 (find_program)"
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/FindPython.cmake:721 (include)"
-      - "CMakeLists.txt:4 (find_package)"
+      - "CMakeLists.txt:33 (find_package)"
     mode: "program"
     variable: "_Python_EXECUTABLE"
     description: "Path to a program."
@@ -7274,7 +7609,7 @@ events:
         - "C:/Program Files/Git/cmd"
         - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
         - "C:/Users/rapha/AppData/Local/Muse Hub/lib"
-        - "C:\\Users\\rapha\\AppData\\Local\\Muse Hub\\lib"
+        - "C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Muse Hub\\lib"
         - "C:/WINDOWS/system32"
         - "C:\\WINDOWS"
         - "C:/WINDOWS/System32/Wbem"
@@ -7295,19 +7630,19 @@ events:
         - "C:\\Users\\rapha\\AppData\\Local\\Python\\pythoncore-3.14-64\\include"
         - "C:/Program Files/JetBrains/CLion 2025.3.2/bin"
         - "C:\\msys64\\ucrt64\\bin"
-      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/example"
+      CMAKE_INSTALL_PREFIX: "C:/Users/rapha/VsCodeProjects/OptiTools/install"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "C:/msys64/ucrt64"
         - "C:/Program Files"
         - "C:/Program Files (x86)"
         - "C:/Program Files/CMake"
-        - "C:/Program Files (x86)/example"
+        - "C:/Users/rapha/VsCodeProjects/OptiTools/install"
   -
     kind: "find-v1"
     backtrace:
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/FindPython/Support.cmake:2437 (find_program)"
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/FindPython.cmake:721 (include)"
-      - "CMakeLists.txt:4 (find_package)"
+      - "CMakeLists.txt:33 (find_package)"
     mode: "program"
     variable: "_Python_EXECUTABLE_DEBUG"
     description: "Path to a program."
@@ -7354,7 +7689,7 @@ events:
         - "C:/Program Files/Git/cmd"
         - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
         - "C:/Users/rapha/AppData/Local/Muse Hub/lib"
-        - "C:\\Users\\rapha\\AppData\\Local\\Muse Hub\\lib"
+        - "C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Muse Hub\\lib"
         - "C:/WINDOWS/system32"
         - "C:\\WINDOWS"
         - "C:/WINDOWS/System32/Wbem"
@@ -7375,19 +7710,19 @@ events:
         - "C:\\Users\\rapha\\AppData\\Local\\Python\\pythoncore-3.14-64\\include"
         - "C:/Program Files/JetBrains/CLion 2025.3.2/bin"
         - "C:\\msys64\\ucrt64\\bin"
-      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/example"
+      CMAKE_INSTALL_PREFIX: "C:/Users/rapha/VsCodeProjects/OptiTools/install"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "C:/msys64/ucrt64"
         - "C:/Program Files"
         - "C:/Program Files (x86)"
         - "C:/Program Files/CMake"
-        - "C:/Program Files (x86)/example"
+        - "C:/Users/rapha/VsCodeProjects/OptiTools/install"
   -
     kind: "find-v1"
     backtrace:
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/FindPython/Support.cmake:3201 (find_library)"
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/FindPython.cmake:721 (include)"
-      - "CMakeLists.txt:4 (find_package)"
+      - "CMakeLists.txt:33 (find_package)"
     mode: "library"
     variable: "_Python_LIBRARY_RELEASE"
     description: "Path to a library."
@@ -7429,7 +7764,7 @@ events:
         - "C:/Program Files/Git/cmd"
         - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
         - "C:/Users/rapha/AppData/Local/Muse Hub/lib"
-        - "C:\\Users\\rapha\\AppData\\Local\\Muse Hub\\lib"
+        - "C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Muse Hub\\lib"
         - "C:/WINDOWS/system32"
         - "C:\\WINDOWS"
         - "C:/WINDOWS/System32/Wbem"
@@ -7450,15 +7785,15 @@ events:
         - "C:\\Users\\rapha\\AppData\\Local\\Python\\pythoncore-3.14-64\\include"
         - "C:/Program Files/JetBrains/CLion 2025.3.2/bin"
         - "C:\\msys64\\ucrt64\\bin"
-      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/example"
+      CMAKE_INSTALL_PREFIX: "C:/Users/rapha/VsCodeProjects/OptiTools/install"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "C:/msys64/ucrt64"
         - "C:/Program Files"
         - "C:/Program Files (x86)"
         - "C:/Program Files/CMake"
-        - "C:/Program Files (x86)/example"
+        - "C:/Users/rapha/VsCodeProjects/OptiTools/install"
       CMAKE_SYSTEM_LIBRARY_PATH:
-        - "C:/Program Files (x86)/example/bin"
+        - "C:/Users/rapha/VsCodeProjects/OptiTools/install/bin"
         - "C:/Program Files/CMake/bin"
         - "/bin"
   -
@@ -7466,7 +7801,7 @@ events:
     backtrace:
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/FindPython/Support.cmake:3389 (find_library)"
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/FindPython.cmake:721 (include)"
-      - "CMakeLists.txt:4 (find_package)"
+      - "CMakeLists.txt:33 (find_package)"
     mode: "library"
     variable: "_Python_LIBRARY_DEBUG"
     description: "Path to a library."
@@ -7503,7 +7838,7 @@ events:
         - "C:/Program Files/Git/cmd"
         - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
         - "C:/Users/rapha/AppData/Local/Muse Hub/lib"
-        - "C:\\Users\\rapha\\AppData\\Local\\Muse Hub\\lib"
+        - "C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Muse Hub\\lib"
         - "C:/WINDOWS/system32"
         - "C:\\WINDOWS"
         - "C:/WINDOWS/System32/Wbem"
@@ -7524,15 +7859,15 @@ events:
         - "C:\\Users\\rapha\\AppData\\Local\\Python\\pythoncore-3.14-64\\include"
         - "C:/Program Files/JetBrains/CLion 2025.3.2/bin"
         - "C:\\msys64\\ucrt64\\bin"
-      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/example"
+      CMAKE_INSTALL_PREFIX: "C:/Users/rapha/VsCodeProjects/OptiTools/install"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "C:/msys64/ucrt64"
         - "C:/Program Files"
         - "C:/Program Files (x86)"
         - "C:/Program Files/CMake"
-        - "C:/Program Files (x86)/example"
+        - "C:/Users/rapha/VsCodeProjects/OptiTools/install"
       CMAKE_SYSTEM_LIBRARY_PATH:
-        - "C:/Program Files (x86)/example/bin"
+        - "C:/Users/rapha/VsCodeProjects/OptiTools/install/bin"
         - "C:/Program Files/CMake/bin"
         - "/bin"
   -
@@ -7541,7 +7876,7 @@ events:
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/FindPython/Support.cmake:1406 (find_library)"
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/FindPython/Support.cmake:3407 (_python_find_runtime_library)"
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/FindPython.cmake:721 (include)"
-      - "CMakeLists.txt:4 (find_package)"
+      - "CMakeLists.txt:33 (find_package)"
     mode: "library"
     variable: "_Python_RUNTIME_LIBRARY_RELEASE"
     description: "Path to a library."
@@ -7577,8 +7912,8 @@ events:
       - "C:/Windows/System32/OpenSSH/"
       - "C:/Program Files/dotnet/bin/"
       - "C:/Program Files/dotnet/"
-      - "C:/Users/rapha/VsCodeProjects/HelloWorld/build/%HIP_PATH%bin/bin/"
-      - "C:/Users/rapha/VsCodeProjects/HelloWorld/build/%HIP_PATH%bin/"
+      - "C:/Users/rapha/VsCodeProjects/OptiTools/build/%HIP_PATH%bin/bin/"
+      - "C:/Users/rapha/VsCodeProjects/OptiTools/build/%HIP_PATH%bin/"
       - "C:/Users/rapha/Documents/Apps/ZLUDA/bin/"
       - "C:/Users/rapha/Documents/Apps/ZLUDA/"
       - "C:/Program Files/Git LFS/bin/"
@@ -7589,6 +7924,8 @@ events:
       - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
       - "C:/Users/rapha/AppData/Local/Muse Hub/lib/bin/"
       - "C:/Users/rapha/AppData/Local/Muse Hub/lib/"
+      - "C:/Windows/System32/config/systemprofile/AppData/Local/Muse Hub/lib/bin/"
+      - "C:/Windows/System32/config/systemprofile/AppData/Local/Muse Hub/lib/"
       - "C:/Program Files/CMake/bin/bin/"
       - "C:/Program Files/CMake/bin/"
       - "C:/Users/rapha/AppData/Roaming/.dotnet/bin/"
@@ -7631,12 +7968,12 @@ events:
       - "C:/Program Files/CMake/lib/"
       - "C:/Program Files/CMake/bin/"
       - "C:/Program Files/CMake/"
-      - "C:/Program Files (x86)/example/lib/bin/"
-      - "C:/Program Files (x86)/example/lib/"
-      - "C:/Program Files (x86)/example/bin/"
-      - "C:/Program Files (x86)/example/"
-      - "C:/Program Files (x86)/example/bin/bin/"
-      - "C:/Program Files (x86)/example/bin/"
+      - "C:/Users/rapha/VsCodeProjects/OptiTools/install/lib/bin/"
+      - "C:/Users/rapha/VsCodeProjects/OptiTools/install/lib/"
+      - "C:/Users/rapha/VsCodeProjects/OptiTools/install/bin/"
+      - "C:/Users/rapha/VsCodeProjects/OptiTools/install/"
+      - "C:/Users/rapha/VsCodeProjects/OptiTools/install/bin/bin/"
+      - "C:/Users/rapha/VsCodeProjects/OptiTools/install/bin/"
       - "/bin/bin/"
       - "/bin/"
     searched_directories:
@@ -7665,7 +8002,7 @@ events:
         - "C:/Program Files/Git/cmd"
         - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
         - "C:/Users/rapha/AppData/Local/Muse Hub/lib"
-        - "C:\\Users\\rapha\\AppData\\Local\\Muse Hub\\lib"
+        - "C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Muse Hub\\lib"
         - "C:/WINDOWS/system32"
         - "C:\\WINDOWS"
         - "C:/WINDOWS/System32/Wbem"
@@ -7686,15 +8023,15 @@ events:
         - "C:\\Users\\rapha\\AppData\\Local\\Python\\pythoncore-3.14-64\\include"
         - "C:/Program Files/JetBrains/CLion 2025.3.2/bin"
         - "C:\\msys64\\ucrt64\\bin"
-      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/example"
+      CMAKE_INSTALL_PREFIX: "C:/Users/rapha/VsCodeProjects/OptiTools/install"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "C:/msys64/ucrt64"
         - "C:/Program Files"
         - "C:/Program Files (x86)"
         - "C:/Program Files/CMake"
-        - "C:/Program Files (x86)/example"
+        - "C:/Users/rapha/VsCodeProjects/OptiTools/install"
       CMAKE_SYSTEM_LIBRARY_PATH:
-        - "C:/Program Files (x86)/example/bin"
+        - "C:/Users/rapha/VsCodeProjects/OptiTools/install/bin"
         - "C:/Program Files/CMake/bin"
         - "/bin"
   -
@@ -7702,7 +8039,7 @@ events:
     backtrace:
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/FindPython/Support.cmake:3716 (find_path)"
       - "C:/Program Files/CMake/share/cmake-4.2/Modules/FindPython.cmake:721 (include)"
-      - "CMakeLists.txt:4 (find_package)"
+      - "CMakeLists.txt:33 (find_package)"
     mode: "path"
     variable: "_Python_INCLUDE_DIR"
     description: "Path to a file."
@@ -7737,7 +8074,7 @@ events:
         - "C:/Program Files/Git/cmd"
         - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
         - "C:/Users/rapha/AppData/Local/Muse Hub/lib"
-        - "C:\\Users\\rapha\\AppData\\Local\\Muse Hub\\lib"
+        - "C:\\WINDOWS\\system32\\config\\systemprofile\\AppData\\Local\\Muse Hub\\lib"
         - "C:/WINDOWS/system32"
         - "C:\\WINDOWS"
         - "C:/WINDOWS/System32/Wbem"
@@ -7758,11 +8095,11 @@ events:
         - "C:\\Users\\rapha\\AppData\\Local\\Python\\pythoncore-3.14-64\\include"
         - "C:/Program Files/JetBrains/CLion 2025.3.2/bin"
         - "C:\\msys64\\ucrt64\\bin"
-      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/example"
+      CMAKE_INSTALL_PREFIX: "C:/Users/rapha/VsCodeProjects/OptiTools/install"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "C:/msys64/ucrt64"
         - "C:/Program Files"
         - "C:/Program Files (x86)"
         - "C:/Program Files/CMake"
-        - "C:/Program Files (x86)/example"
+        - "C:/Users/rapha/VsCodeProjects/OptiTools/install"
 ...

@@ -1,8 +1,8 @@
 {
 	"InstallScripts" : 
 	[
-		"C:/Users/rapha/VsCodeProjects/HelloWorld/build/cmake_install.cmake",
-		"C:/Users/rapha/VsCodeProjects/HelloWorld/build/pybind11/cmake_install.cmake"
+		"C:/Users/rapha/VsCodeProjects/OptiTools/build/cmake_install.cmake",
+		"C:/Users/rapha/VsCodeProjects/OptiTools/build/_deps/fmt-build/cmake_install.cmake"
 	],
 	"Parallel" : false
 }

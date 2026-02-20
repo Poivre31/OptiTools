@@ -1,0 +1,25 @@
+buildFor:
+  default: cpp
+  choices:
+    cpp:
+      short: CPP
+      long: Builds library for CPP testing
+      buildFor: cpp
+      settings:
+        BUILD_FOR: CPP
+    python:
+      short: Python
+      long: Builds the python module
+      buildFor: python
+      settings:
+        BUILD_FOR: PYTHON
+        
+buildType:
+  default: debug
+  choices:
+    debug:
+      short: Debug
+      buildType: debug
+    release:
+      short: Release
+      buildType: release

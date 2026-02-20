@@ -2,6 +2,9 @@
 #include <solver/solver.h>
 #include <matplot/matplot.h>
 #include <functional>
+#include <chrono>
+
+using namespace std::chrono;
 
 namespace plt = matplot;
 
@@ -87,6 +90,7 @@ double gradient(solver_degree_I<state> &solver, double target, double α0, doubl
 
 int main()
 {
+    auto t1 = high_resolution_clock::now();
     double α0 = .8;
 
     solver_degree_I<state> solver;
@@ -114,6 +118,9 @@ int main()
     auto result = propagate(solver, alpha);
     auto time = truncate_vector(solver.get_timeline(tf), result.size() + 1);
 
+    auto t2 = high_resolution_clock::now();
+    double runtime = duration_cast<milliseconds>(t2 - t1).count();
+    fmt::println("Runtime: {}ms", runtime);
     fmt::println("Final height: {:.1f}, velocity: {:.1f}, time: {:.1f}", parse(result, c::z).back(), parse(result, c::vx).back(), time.back());
 
     if (false)

@@ -1,2 +1,2 @@
-C:\msys64\ucrt64\bin\ar.exe qc liboptiToolsLib.a CMakeFiles/optiToolsLib.dir/src/solver/euler.cpp.obj
-C:\msys64\ucrt64\bin\ranlib.exe liboptiToolsLib.a
+/usr/bin/ar qc liboptiToolsLib.a CMakeFiles/optiToolsLib.dir/lib/solver/euler.cpp.o
+/usr/bin/ranlib liboptiToolsLib.a

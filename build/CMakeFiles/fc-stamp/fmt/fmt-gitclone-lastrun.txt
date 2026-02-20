@@ -3,9 +3,9 @@
 # No other meaning or use of this file is supported.
 
 method=git
-command=C:/Program Files/CMake/bin/cmake.exe;-DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE;-P;C:/Users/rapha/VsCodeProjects/OptiTools/build/CMakeFiles/fc-tmp/fmt/fmt-gitclone.cmake
-source_dir=C:/Users/rapha/VsCodeProjects/OptiTools/build/_deps/fmt-src
-work_dir=C:/Users/rapha/VsCodeProjects/OptiTools/build/_deps
+command=/opt/cmake/bin/cmake;-DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE;-P;/home/poivre31/Documents/VsCodeProjects/OptimalControl/OptiTools/build/CMakeFiles/fc-tmp/fmt/fmt-gitclone.cmake
+source_dir=/home/poivre31/Documents/VsCodeProjects/OptimalControl/OptiTools/build/_deps/fmt-src
+work_dir=/home/poivre31/Documents/VsCodeProjects/OptimalControl/OptiTools/build/_deps
 repository=https://github.com/fmtlib/fmt
 remote=origin
 init_submodules=TRUE

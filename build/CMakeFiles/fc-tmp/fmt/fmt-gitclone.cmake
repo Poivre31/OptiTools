@@ -3,11 +3,11 @@
 
 cmake_minimum_required(VERSION ${CMAKE_VERSION}) # this file comes with cmake
 
-if(EXISTS "C:/Users/rapha/VsCodeProjects/OptiTools/build/CMakeFiles/fc-stamp/fmt/fmt-gitclone-lastrun.txt" AND EXISTS "C:/Users/rapha/VsCodeProjects/OptiTools/build/CMakeFiles/fc-stamp/fmt/fmt-gitinfo.txt" AND
-  "C:/Users/rapha/VsCodeProjects/OptiTools/build/CMakeFiles/fc-stamp/fmt/fmt-gitclone-lastrun.txt" IS_NEWER_THAN "C:/Users/rapha/VsCodeProjects/OptiTools/build/CMakeFiles/fc-stamp/fmt/fmt-gitinfo.txt")
+if(EXISTS "/home/poivre31/Documents/VsCodeProjects/OptimalControl/OptiTools/build/CMakeFiles/fc-stamp/fmt/fmt-gitclone-lastrun.txt" AND EXISTS "/home/poivre31/Documents/VsCodeProjects/OptimalControl/OptiTools/build/CMakeFiles/fc-stamp/fmt/fmt-gitinfo.txt" AND
+  "/home/poivre31/Documents/VsCodeProjects/OptimalControl/OptiTools/build/CMakeFiles/fc-stamp/fmt/fmt-gitclone-lastrun.txt" IS_NEWER_THAN "/home/poivre31/Documents/VsCodeProjects/OptimalControl/OptiTools/build/CMakeFiles/fc-stamp/fmt/fmt-gitinfo.txt")
   message(VERBOSE
     "Avoiding repeated git clone, stamp file is up to date: "
-    "'C:/Users/rapha/VsCodeProjects/OptiTools/build/CMakeFiles/fc-stamp/fmt/fmt-gitclone-lastrun.txt'"
+    "'/home/poivre31/Documents/VsCodeProjects/OptimalControl/OptiTools/build/CMakeFiles/fc-stamp/fmt/fmt-gitclone-lastrun.txt'"
   )
   return()
 endif()
@@ -22,12 +22,12 @@ else()
 endif()
 
 execute_process(
-  COMMAND ${CMAKE_COMMAND} -E rm -rf "C:/Users/rapha/VsCodeProjects/OptiTools/build/_deps/fmt-src"
+  COMMAND ${CMAKE_COMMAND} -E rm -rf "/home/poivre31/Documents/VsCodeProjects/OptimalControl/OptiTools/build/_deps/fmt-src"
   RESULT_VARIABLE error_code
   ${maybe_show_command}
 )
 if(error_code)
-  message(FATAL_ERROR "Failed to remove directory: 'C:/Users/rapha/VsCodeProjects/OptiTools/build/_deps/fmt-src'")
+  message(FATAL_ERROR "Failed to remove directory: '/home/poivre31/Documents/VsCodeProjects/OptimalControl/OptiTools/build/_deps/fmt-src'")
 endif()
 
 # try the clone 3 times in case there is an odd git clone issue
@@ -35,9 +35,9 @@ set(error_code 1)
 set(number_of_tries 0)
 while(error_code AND number_of_tries LESS 3)
   execute_process(
-    COMMAND "C:/Program Files/Git/cmd/git.exe"
+    COMMAND "/usr/bin/git"
             clone --no-checkout --config "advice.detachedHead=false" "https://github.com/fmtlib/fmt" "fmt-src"
-    WORKING_DIRECTORY "C:/Users/rapha/VsCodeProjects/OptiTools/build/_deps"
+    WORKING_DIRECTORY "/home/poivre31/Documents/VsCodeProjects/OptimalControl/OptiTools/build/_deps"
     RESULT_VARIABLE error_code
     ${maybe_show_command}
   )
@@ -51,37 +51,37 @@ if(error_code)
 endif()
 
 execute_process(
-  COMMAND "C:/Program Files/Git/cmd/git.exe"
-          checkout "e69e5f977d458f2650bb346dadf2ad30c5320281" --
-  WORKING_DIRECTORY "C:/Users/rapha/VsCodeProjects/OptiTools/build/_deps/fmt-src"
+  COMMAND "/usr/bin/git"
+          checkout "12.1.0" --
+  WORKING_DIRECTORY "/home/poivre31/Documents/VsCodeProjects/OptimalControl/OptiTools/build/_deps/fmt-src"
   RESULT_VARIABLE error_code
   ${maybe_show_command}
 )
 if(error_code)
-  message(FATAL_ERROR "Failed to checkout tag: 'e69e5f977d458f2650bb346dadf2ad30c5320281'")
+  message(FATAL_ERROR "Failed to checkout tag: '12.1.0'")
 endif()
 
 set(init_submodules TRUE)
 if(init_submodules)
   execute_process(
-    COMMAND "C:/Program Files/Git/cmd/git.exe" 
+    COMMAND "/usr/bin/git" 
             submodule update --recursive --init 
-    WORKING_DIRECTORY "C:/Users/rapha/VsCodeProjects/OptiTools/build/_deps/fmt-src"
+    WORKING_DIRECTORY "/home/poivre31/Documents/VsCodeProjects/OptimalControl/OptiTools/build/_deps/fmt-src"
     RESULT_VARIABLE error_code
     ${maybe_show_command}
   )
 endif()
 if(error_code)
-  message(FATAL_ERROR "Failed to update submodules in: 'C:/Users/rapha/VsCodeProjects/OptiTools/build/_deps/fmt-src'")
+  message(FATAL_ERROR "Failed to update submodules in: '/home/poivre31/Documents/VsCodeProjects/OptimalControl/OptiTools/build/_deps/fmt-src'")
 endif()
 
 # Complete success, update the script-last-run stamp file:
 #
 execute_process(
-  COMMAND ${CMAKE_COMMAND} -E copy "C:/Users/rapha/VsCodeProjects/OptiTools/build/CMakeFiles/fc-stamp/fmt/fmt-gitinfo.txt" "C:/Users/rapha/VsCodeProjects/OptiTools/build/CMakeFiles/fc-stamp/fmt/fmt-gitclone-lastrun.txt"
+  COMMAND ${CMAKE_COMMAND} -E copy "/home/poivre31/Documents/VsCodeProjects/OptimalControl/OptiTools/build/CMakeFiles/fc-stamp/fmt/fmt-gitinfo.txt" "/home/poivre31/Documents/VsCodeProjects/OptimalControl/OptiTools/build/CMakeFiles/fc-stamp/fmt/fmt-gitclone-lastrun.txt"
   RESULT_VARIABLE error_code
   ${maybe_show_command}
 )
 if(error_code)
-  message(FATAL_ERROR "Failed to copy script-last-run stamp file: 'C:/Users/rapha/VsCodeProjects/OptiTools/build/CMakeFiles/fc-stamp/fmt/fmt-gitclone-lastrun.txt'")
+  message(FATAL_ERROR "Failed to copy script-last-run stamp file: '/home/poivre31/Documents/VsCodeProjects/OptimalControl/OptiTools/build/CMakeFiles/fc-stamp/fmt/fmt-gitclone-lastrun.txt'")
 endif()

@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/optiToolsLib.dir/src/solver/euler.cpp.obj"
-  "CMakeFiles/optiToolsLib.dir/src/solver/euler.cpp.obj.d"
+  "CMakeFiles/optiToolsLib.dir/lib/solver/euler.cpp.o"
+  "CMakeFiles/optiToolsLib.dir/lib/solver/euler.cpp.o.d"
   "liboptiToolsLib.a"
   "liboptiToolsLib.pdb"
 )

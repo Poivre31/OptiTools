@@ -1,9 +1,4 @@
 import opti_tools
 
-
-def v(t, x):
-    return 0.1 * x
-
-
-solver = opti_tools.solver(4)
-print(solver.solve(3))
+print(opti_tools.add(3,4))
+print(opti_tools.sub(3,4))

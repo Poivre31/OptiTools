@@ -1,1 +1,0 @@
- "libnanobind-static.a" liboptiToolsLib.a -static -lpthread -static-libgcc -static-libstdc++ "C:/Users/rapha/AppData/Local/Python/pythoncore-3.14-64/libs/python314.lib" "_deps/fmt-build/libfmtd.a" -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 

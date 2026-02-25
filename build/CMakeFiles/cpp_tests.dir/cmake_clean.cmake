@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/cpp_tests.dir/link.d"
-  "CMakeFiles/cpp_tests.dir/src/gravity_turn_2.cpp.o"
-  "CMakeFiles/cpp_tests.dir/src/gravity_turn_2.cpp.o.d"
+  "CMakeFiles/cpp_tests.dir/src/ascent_profile_1.cpp.o"
+  "CMakeFiles/cpp_tests.dir/src/ascent_profile_1.cpp.o.d"
   "cpp_tests"
   "cpp_tests.pdb"
 )

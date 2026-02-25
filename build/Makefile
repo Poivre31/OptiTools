@@ -257,29 +257,29 @@ lib/solver/euler.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/optiToolsLib.dir/build.make CMakeFiles/optiToolsLib.dir/lib/solver/euler.cpp.s
 .PHONY : lib/solver/euler.cpp.s
 
-src/gravity_turn_2.o: src/gravity_turn_2.cpp.o
-.PHONY : src/gravity_turn_2.o
+src/ascent_profile_1.o: src/ascent_profile_1.cpp.o
+.PHONY : src/ascent_profile_1.o
 
 # target to build an object file
-src/gravity_turn_2.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpp_tests.dir/build.make CMakeFiles/cpp_tests.dir/src/gravity_turn_2.cpp.o
-.PHONY : src/gravity_turn_2.cpp.o
+src/ascent_profile_1.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpp_tests.dir/build.make CMakeFiles/cpp_tests.dir/src/ascent_profile_1.cpp.o
+.PHONY : src/ascent_profile_1.cpp.o
 
-src/gravity_turn_2.i: src/gravity_turn_2.cpp.i
-.PHONY : src/gravity_turn_2.i
+src/ascent_profile_1.i: src/ascent_profile_1.cpp.i
+.PHONY : src/ascent_profile_1.i
 
 # target to preprocess a source file
-src/gravity_turn_2.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpp_tests.dir/build.make CMakeFiles/cpp_tests.dir/src/gravity_turn_2.cpp.i
-.PHONY : src/gravity_turn_2.cpp.i
+src/ascent_profile_1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpp_tests.dir/build.make CMakeFiles/cpp_tests.dir/src/ascent_profile_1.cpp.i
+.PHONY : src/ascent_profile_1.cpp.i
 
-src/gravity_turn_2.s: src/gravity_turn_2.cpp.s
-.PHONY : src/gravity_turn_2.s
+src/ascent_profile_1.s: src/ascent_profile_1.cpp.s
+.PHONY : src/ascent_profile_1.s
 
 # target to generate assembly for a file
-src/gravity_turn_2.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpp_tests.dir/build.make CMakeFiles/cpp_tests.dir/src/gravity_turn_2.cpp.s
-.PHONY : src/gravity_turn_2.cpp.s
+src/ascent_profile_1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpp_tests.dir/build.make CMakeFiles/cpp_tests.dir/src/ascent_profile_1.cpp.s
+.PHONY : src/ascent_profile_1.cpp.s
 
 # Help Target
 help:
@@ -302,9 +302,9 @@ help:
 	@echo "... lib/solver/euler.o"
 	@echo "... lib/solver/euler.i"
 	@echo "... lib/solver/euler.s"
-	@echo "... src/gravity_turn_2.o"
-	@echo "... src/gravity_turn_2.i"
-	@echo "... src/gravity_turn_2.s"
+	@echo "... src/ascent_profile_1.o"
+	@echo "... src/ascent_profile_1.i"
+	@echo "... src/ascent_profile_1.s"
 .PHONY : help
 
 

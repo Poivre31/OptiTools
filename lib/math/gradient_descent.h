@@ -23,7 +23,7 @@ coordinates<N> gradient_descent(
             coordinates<N> grad = gradient<N>(X, cost);
             X -= parameter * grad;
             i++;
-            if (grad.dot(grad) < threshold * threshold)
+            if (cost(X) < threshold)
                 break;
         }
     }
@@ -39,18 +39,16 @@ coordinates<N> gradient_descent(
             double η = 1e-6;
             if (Δgrad.dot(Δgrad) != 0)
                 η = abs(ΔX.dot(Δgrad) / Δgrad.dot(Δgrad));
-            // if (η > 1e-4)
-            //     η = 1e-4;
             grad = grad_n;
             X = X_n;
             X_n -= grad * η;
             i++;
-            if (grad.dot(grad) < threshold * threshold)
+            if (cost(X_n) < threshold)
                 break;
         }
         X = X_n;
     }
     auto grad = gradient<N>(X, cost);
-    fmt::println("Completed gradient descent in {} iterations with final cost {}", i, sqrt(grad.dot(grad)));
+    fmt::println("Completed gradient descent in {} iterations with final cost {}", i, cost(X));
     return X;
 }
